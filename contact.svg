@@ -5,9 +5,19 @@
       <stop offset="50%" stop-color="#1a0040"/>
       <stop offset="100%" stop-color="#0a0010"/>
     </linearGradient>
-    <linearGradient id="ccard" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140030"/>
-      <stop offset="100%" stop-color="#0a001a"/>
+    <linearGradient id="cpill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a0040"/>
+      <stop offset="48%"  stop-color="#1a0040"/>
+      <stop offset="50%"  stop-color="#2d006a"/>
+      <stop offset="52%"  stop-color="#1a0040"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
+    <linearGradient id="cshim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="48%"  stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff"  stop-opacity="0.3"/>
+      <stop offset="52%"  stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </linearGradient>
     <filter id="cg" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/>
@@ -16,23 +26,33 @@
     <filter id="csoft" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="12"/>
     </filter>
+    <clipPath id="cpillclip"><rect x="330" y="118" width="240" height="36" rx="18"/></clipPath>
     <style>
       @keyframes cpulse{0%,100%{opacity:0.5;stroke:#c084fc}50%{opacity:1;stroke:#fbbf24}}
       @keyframes ctitle{0%,100%{opacity:0.85}50%{opacity:1}}
       @keyframes cdot{0%,100%{r:5;opacity:0.8}50%{r:7;opacity:1}}
+      @keyframes cring1{0%,100%{r:24;opacity:0.5;stroke:#22c55e}50%{r:28;opacity:0.9;stroke:#22c55e}}
+      @keyframes cring2{0%,100%{r:36;opacity:0.15}50%{r:42;opacity:0.35}}
+      @keyframes cring3{0%{r:10;opacity:0.6}100%{r:52;opacity:0}}
       @keyframes cfloat{0%,100%{transform:translateY(0);opacity:0.5}50%{transform:translateY(-12px);opacity:0.05}}
       @keyframes cfloat2{0%,100%{transform:translateY(0);opacity:0.4}50%{transform:translateY(-16px);opacity:0.05}}
       @keyframes cscan{0%{transform:translateX(-900px)}100%{transform:translateX(900px)}}
-      @keyframes cring{0%,100%{r:30;opacity:0.15}50%{r:36;opacity:0.35}}
+      @keyframes cshimmer{0%{transform:translateX(-260px)}100%{transform:translateX(260px)}}
+      @keyframes cgl{0%,100%{opacity:0.07}50%{opacity:0.16}}
       .cborder{animation:cpulse 3s ease-in-out infinite}
       .ctitle{animation:ctitle 3s ease-in-out infinite}
       .cdot{animation:cdot 2s ease-in-out infinite}
-      .cp1{animation:cfloat  4s ease-in-out infinite}
-      .cp2{animation:cfloat2 5.5s ease-in-out infinite}
-      .cp3{animation:cfloat  3.8s ease-in-out infinite;animation-delay:-2s}
-      .cp4{animation:cfloat2 6s ease-in-out infinite;animation-delay:-1s}
-      .cring{animation:cring 3s ease-in-out infinite}
+      .cring1{animation:cring1 2.5s ease-in-out infinite}
+      .cring2{animation:cring2 3s ease-in-out infinite;animation-delay:-1s}
+      .cring3{animation:cring3 3s ease-out infinite;animation-delay:-1.5s}
+      .cp1{animation:cfloat  4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .cp2{animation:cfloat2 5.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .cp3{animation:cfloat  3.8s ease-in-out infinite;animation-delay:-2s;transform-box:fill-box;transform-origin:center}
+      .cp4{animation:cfloat2 6s ease-in-out infinite;animation-delay:-1s;transform-box:fill-box;transform-origin:center}
+      .cp5{animation:cfloat  5s ease-in-out infinite;animation-delay:-3s;transform-box:fill-box;transform-origin:center}
       .cscan{animation:cscan 6s linear infinite;opacity:0.04}
+      .cshimmer{animation:cshimmer 2.5s linear infinite}
+      .cgl{animation:cgl 4s ease-in-out infinite}
     </style>
   </defs>
 
@@ -41,8 +61,9 @@
   <rect class="cborder" width="898" height="178" x="1" y="1" rx="12" fill="none" stroke="#c084fc" stroke-width="2"/>
 
   <!-- Glow blobs -->
-  <circle cx="200" cy="90" r="60" fill="#c084fc" filter="url(#csoft)" opacity="0.08"/>
-  <circle cx="700" cy="90" r="60" fill="#fbbf24" filter="url(#csoft)" opacity="0.06"/>
+  <circle class="cgl" cx="160" cy="90" r="70" fill="#22c55e" filter="url(#csoft)"/>
+  <circle class="cgl" cx="700" cy="90" r="60" fill="#fbbf24" filter="url(#csoft)" style="animation-delay:-2s"/>
+  <circle cx="450" cy="90" r="90" fill="#c084fc" filter="url(#csoft)" opacity="0.03"/>
 
   <!-- Scan line -->
   <rect class="cscan" x="0" y="0" width="120" height="180" rx="12" fill="#c084fc"/>
@@ -52,34 +73,40 @@
   <circle class="cp2" cx="150" cy="60"  r="1.2" fill="#c084fc"/>
   <circle class="cp3" cx="800" cy="35"  r="2"   fill="#fbbf24"/>
   <circle class="cp4" cx="840" cy="65"  r="1.2" fill="#c084fc"/>
-  <circle class="cp1" cx="450" cy="20"  r="1.5" fill="#fbbf24"/>
-  <circle class="cp3" cx="300" cy="155" r="1.2" fill="#c084fc"/>
-  <circle class="cp2" cx="620" cy="158" r="1.5" fill="#fbbf24"/>
+  <circle class="cp5" cx="450" cy="20"  r="1.5" fill="#fbbf24"/>
+  <circle class="cp1" cx="300" cy="155" r="1.2" fill="#c084fc" style="animation-delay:-2.5s"/>
+  <circle class="cp2" cx="620" cy="158" r="1.5" fill="#fbbf24" style="animation-delay:-1.5s"/>
 
-  <!-- Left: status indicator -->
-  <circle class="cring" cx="160" cy="90" r="30" fill="none" stroke="#22c55e" stroke-width="1"/>
-  <circle class="cdot"  cx="160" cy="90" r="5"  fill="#22c55e"/>
-  <text x="160" y="128" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#22c55e" text-anchor="middle" font-weight="600">AVAILABLE</text>
+  <!-- Left: status indicator — triple ring -->
+  <circle class="cring3" cx="160" cy="90" r="10" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <circle class="cring2" cx="160" cy="90" r="36" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <circle class="cring1" cx="160" cy="90" r="24" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+  <circle class="cdot"   cx="160" cy="90" r="5"  fill="#22c55e"/>
+  <text x="160" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#22c55e" text-anchor="middle" font-weight="600">AVAILABLE</text>
+  <text x="160" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8"  fill="#336633" text-anchor="middle">for hire · now</text>
 
   <!-- Center: main message -->
-  <text class="ctitle" x="450" y="68"
+  <text class="ctitle" x="450" y="64"
         font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800"
         fill="#fbbf24" text-anchor="middle" filter="url(#cg)">Open to freelance projects</text>
 
-  <text x="450" y="100"
+  <text x="450" y="94"
         font-family="'Segoe UI',Arial,sans-serif" font-size="14"
         fill="#c084fc" text-anchor="middle">Disponible para proyectos freelance · Spain 🇪🇸</text>
 
-  <!-- GitHub link pill -->
-  <rect x="330" y="118" width="240" height="36" rx="18" fill="#1a0040" stroke="#fbbf24" stroke-width="1.2"/>
+  <!-- GitHub link pill with shimmer -->
+  <rect x="330" y="118" width="240" height="36" rx="18" fill="url(#cpill)" stroke="#fbbf24" stroke-width="1.2"/>
+  <rect class="cshimmer" x="330" y="118" width="260" height="36" rx="18" fill="url(#cshim)" clip-path="url(#cpillclip)"/>
   <text x="450" y="141" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600"
         fill="#fbbf24" text-anchor="middle">🐙  github.com/hydra-algaib</text>
 
   <!-- Right: freelance badge -->
-  <rect x="720" y="64" width="140" height="52" rx="8" fill="#1a0040" stroke="#c084fc" stroke-width="1"/>
-  <text x="790" y="87"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc" text-anchor="middle">💼 Freelance</text>
-  <text x="790" y="106" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#888"    text-anchor="middle">Remote · Full Stack</text>
+  <rect x="718" y="58" width="148" height="64" rx="10" fill="#0d0025" stroke="#c084fc" stroke-width="1"/>
+  <text x="792" y="82"  font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#c084fc" text-anchor="middle" font-weight="600">💼 Freelance</text>
+  <line x1="730" y1="90" x2="854" y2="90" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="792" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Remote · Full Stack</text>
+  <text x="792" y="118" font-family="'Segoe UI',Arial,sans-serif" font-size="9"  fill="#555" text-anchor="middle">Jun 2026 · open</text>
 
   <!-- Bottom accent line -->
-  <line x1="200" y1="168" x2="700" y2="168" stroke="#fbbf24" stroke-width="0.8" opacity="0.2"/>
+  <line x1="200" y1="170" x2="700" y2="170" stroke="#fbbf24" stroke-width="0.8" opacity="0.15"/>
 </svg>
