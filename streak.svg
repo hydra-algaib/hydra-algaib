@@ -1,62 +1,105 @@
-<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0010"/>
       <stop offset="100%" stop-color="#1a0040"/>
     </linearGradient>
     <linearGradient id="scard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#140030"/>
-      <stop offset="100%" stop-color="#0a0020"/>
+      <stop offset="0%" stop-color="#160032"/>
+      <stop offset="100%" stop-color="#0a001e"/>
     </linearGradient>
-    <filter id="sglow" x="-30%" y="-50%" width="160%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+    <linearGradient id="sbar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d0070"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="sbar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d0070"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="sg" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="ssoft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
+      <feGaussianBlur stdDeviation="10"/>
     </filter>
     <style>
-      @keyframes spulse{0%,100%{opacity:0.5}50%{opacity:1}}
+      @keyframes sb1{0%,100%{opacity:0.4;stroke:#c084fc}50%{opacity:0.95;stroke:#fbbf24}}
+      @keyframes sb2{0%,100%{opacity:0.95;stroke:#fbbf24}50%{opacity:0.4;stroke:#c084fc}}
+      @keyframes sb3{0%,100%{opacity:0.5;stroke:#c084fc}50%{opacity:0.9;stroke:#fbbf24}}
       @keyframes snum{0%,100%{opacity:0.85}50%{opacity:1}}
-      @keyframes sborder{0%,100%{opacity:0.35;stroke:#c084fc}50%{opacity:0.9;stroke:#fbbf24}}
-      @keyframes sborder2{0%,100%{opacity:0.9;stroke:#fbbf24}50%{opacity:0.35;stroke:#c084fc}}
-      @keyframes sborder3{0%,100%{opacity:0.5;stroke:#c084fc}50%{opacity:0.85;stroke:#fbbf24}}
-      @keyframes sfire{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.1)}}
-      .sb1{animation:sborder  3s ease-in-out infinite}
-      .sb2{animation:sborder2 3s ease-in-out infinite;animation-delay:-1s}
-      .sb3{animation:sborder3 3s ease-in-out infinite;animation-delay:-2s}
+      @keyframes sicon{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+      @keyframes sgl{0%,100%{opacity:0.08}50%{opacity:0.2}}
+      @keyframes sbar{0%{width:0}100%{width:200px}}
+      .sb1{animation:sb1 3s ease-in-out infinite}
+      .sb2{animation:sb2 3s ease-in-out infinite;animation-delay:-1s}
+      .sb3{animation:sb3 3s ease-in-out infinite;animation-delay:-2s}
       .sn{animation:snum 2.5s ease-in-out infinite}
-      .sf{animation:sfire 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-      .sl{animation:spulse 3s ease-in-out infinite}
+      .si{animation:sicon 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .sgl{animation:sgl 4s ease-in-out infinite}
+      .sbar1{animation:sbar 1.8s ease-out forwards}
+      .sbar2{animation:sbar 1.8s ease-out 0.3s forwards;width:0}
+      .sbar3{animation:sbar 1.8s ease-out 0.6s forwards;width:0}
     </style>
   </defs>
 
-  <rect width="900" height="160" fill="url(#sbg)"/>
+  <rect width="900" height="180" fill="url(#sbg)"/>
 
   <!-- Card 1: Total Contributions -->
-  <rect x="15" y="12" width="270" height="136" rx="10" fill="url(#scard)"/>
-  <rect class="sb1" x="15" y="12" width="270" height="136" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <circle cx="150" cy="44" r="18" fill="#1a0040" filter="url(#ssoft)" opacity="0.8"/>
-  <text class="sf" x="150" y="50" font-family="Arial" font-size="20" text-anchor="middle">📦</text>
-  <text class="sl" x="150" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle" letter-spacing="1">TOTAL CONTRIBUTIONS</text>
-  <text class="sn" x="150" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="36" font-weight="800" fill="#fbbf24" text-anchor="middle" filter="url(#sglow)">25+</text>
-  <text x="150" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">this year · all commits</text>
+  <rect x="12" y="12" width="272" height="156" rx="12" fill="url(#scard)"/>
+  <rect class="sb1" x="12" y="12" width="272" height="156" rx="12" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="sgl" cx="148" cy="90" r="50" fill="#fbbf24" filter="url(#ssoft)"/>
+
+  <g class="si">
+    <text x="148" y="50" font-family="Arial" font-size="22" text-anchor="middle">📦</text>
+  </g>
+  <text x="148" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle" letter-spacing="1.5">TOTAL CONTRIBUTIONS</text>
+
+  <text class="sn" x="148" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
+        fill="#fbbf24" text-anchor="middle" filter="url(#sg)">25+</text>
+
+  <rect x="44" y="118" width="0" height="4" rx="2" fill="url(#sbar1)"/>
+  <rect class="sbar1" x="44" y="118" width="200" height="4" rx="2" fill="url(#sbar1)"/>
+
+  <text x="44"  y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">2026 · all commits</text>
+  <text x="240" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#555" text-anchor="end">private repos</text>
+  <text x="148" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#444" text-anchor="middle">Jan — Jun 2026</text>
 
   <!-- Card 2: Current Streak -->
-  <rect x="315" y="12" width="270" height="136" rx="10" fill="url(#scard)"/>
-  <rect class="sb2" x="315" y="12" width="270" height="136" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
-  <circle cx="450" cy="44" r="18" fill="#2d0070" filter="url(#ssoft)" opacity="0.8"/>
-  <text class="sf" x="450" y="50" font-family="Arial" font-size="20" text-anchor="middle">🔥</text>
-  <text class="sl" x="450" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle" letter-spacing="1">CURRENT STREAK</text>
-  <text class="sn" x="450" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="36" font-weight="800" fill="#fbbf24" text-anchor="middle" filter="url(#sglow)">1d</text>
-  <text x="450" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Jun 18 · profile launch day</text>
+  <rect x="314" y="12" width="272" height="156" rx="12" fill="url(#scard)"/>
+  <rect class="sb2" x="314" y="12" width="272" height="156" rx="12" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle class="sgl" cx="450" cy="90" r="50" fill="#fbbf24" filter="url(#ssoft)"/>
+
+  <g class="si">
+    <text x="450" y="50" font-family="Arial" font-size="22" text-anchor="middle">🔥</text>
+  </g>
+  <text x="450" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle" letter-spacing="1.5">CURRENT STREAK</text>
+
+  <text class="sn" x="450" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
+        fill="#fbbf24" text-anchor="middle" filter="url(#sg)">7d</text>
+
+  <rect class="sbar2" x="346" y="118" width="200" height="4" rx="2" fill="url(#sbar2)"/>
+
+  <text x="346" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Jun 12 → Jun 18</text>
+  <text x="542" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#555" text-anchor="end">launch sprint</text>
+  <text x="450" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#444" text-anchor="middle">Profile build week 🚀</text>
 
   <!-- Card 3: Longest Streak -->
-  <rect x="615" y="12" width="270" height="136" rx="10" fill="url(#scard)"/>
-  <rect class="sb3" x="615" y="12" width="270" height="136" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <circle cx="750" cy="44" r="18" fill="#1a0040" filter="url(#ssoft)" opacity="0.8"/>
-  <text class="sf" x="750" y="50" font-family="Arial" font-size="20" text-anchor="middle">⚡</text>
-  <text class="sl" x="750" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle" letter-spacing="1">LONGEST STREAK</text>
-  <text class="sn" x="750" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="36" font-weight="800" fill="#fbbf24" text-anchor="middle" filter="url(#sglow)">7d</text>
-  <text x="750" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">Jun 2026 · launch sprint</text>
+  <rect x="616" y="12" width="272" height="156" rx="12" fill="url(#scard)"/>
+  <rect class="sb3" x="616" y="12" width="272" height="156" rx="12" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="sgl" cx="752" cy="90" r="50" fill="#c084fc" filter="url(#ssoft)"/>
+
+  <g class="si">
+    <text x="752" y="50" font-family="Arial" font-size="22" text-anchor="middle">⚡</text>
+  </g>
+  <text x="752" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#888" text-anchor="middle" letter-spacing="1.5">LONGEST STREAK</text>
+
+  <text class="sn" x="752" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
+        fill="#fbbf24" text-anchor="middle" filter="url(#sg)">7d</text>
+
+  <rect class="sbar3" x="648" y="118" width="200" height="4" rx="2" fill="url(#sbar1)"/>
+
+  <text x="648" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Jun 2026</text>
+  <text x="844" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#555" text-anchor="end">personal best</text>
+  <text x="752" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#444" text-anchor="middle">Profile launch week</text>
 </svg>
