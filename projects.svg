@@ -1,0 +1,91 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
+    <linearGradient id="card1bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0025"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
+    <filter id="pg" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes pb{0%,100%{opacity:0.5}50%{opacity:1}}
+      @keyframes pf{0%,100%{transform:translateY(0);opacity:0.6}50%{transform:translateY(-8px);opacity:0.1}}
+      @keyframes pf2{0%,100%{transform:translateY(0);opacity:0.5}50%{transform:translateY(-12px);opacity:0.1}}
+      @keyframes ptag{0%,100%{opacity:0.7}50%{opacity:1}}
+      .pb1{animation:pb 3s ease-in-out infinite}
+      .pb2{animation:pb 3.5s ease-in-out infinite;animation-delay:-1.5s}
+      .pp1{animation:pf 4s ease-in-out infinite}
+      .pp2{animation:pf2 5s ease-in-out infinite}
+      .pp3{animation:pf 3.5s ease-in-out infinite;animation-delay:-2s}
+      .pp4{animation:pf2 4.5s ease-in-out infinite;animation-delay:-1s}
+      .ptag{animation:ptag 2.5s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#pbg)"/>
+
+  <!-- Card 1: Sofia -->
+  <rect x="20" y="20" width="410" height="180" rx="10" fill="url(#card1bg)"/>
+  <rect class="pb1" x="20" y="20" width="410" height="180" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="pp1" cx="55" cy="50" r="1.5" fill="#fbbf24"/>
+  <circle class="pp2" cx="390" cy="45" r="1" fill="#c084fc"/>
+
+  <!-- Sofia icon area -->
+  <rect x="35" y="38" width="36" height="36" rx="8" fill="#2d0070" opacity="0.8"/>
+  <text x="53" y="62" font-family="Arial" font-size="18" text-anchor="middle">🤖</text>
+
+  <!-- Sofia title -->
+  <text x="82" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="700"
+        fill="#fbbf24" filter="url(#pg)">sofia-chatbot</text>
+  <text x="82" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc">Private · AI Secretary</text>
+
+  <!-- Description -->
+  <text x="35" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">AI-powered business secretary with WhatsApp</text>
+  <text x="35" y="118" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">integration, appointment management, FAQ</text>
+  <text x="35" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">system and full admin dashboard.</text>
+
+  <!-- Tags -->
+  <rect class="ptag" x="35" y="155" width="60" height="20" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="65" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">Node.js</text>
+  <rect class="ptag" x="103" y="155" width="60" height="20" rx="4" fill="#1a0040" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="133" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle">Claude AI</text>
+  <rect class="ptag" x="171" y="155" width="60" height="20" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="201" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">WhatsApp</text>
+  <rect class="ptag" x="239" y="155" width="60" height="20" rx="4" fill="#1a0040" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="269" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle">Express</text>
+
+  <!-- Card 2: GymLog -->
+  <rect x="470" y="20" width="410" height="180" rx="10" fill="url(#card1bg)"/>
+  <rect class="pb2" x="470" y="20" width="410" height="180" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="pp3" cx="505" cy="50" r="1.5" fill="#fbbf24"/>
+  <circle class="pp4" cx="840" cy="45" r="1" fill="#c084fc"/>
+
+  <!-- GymLog icon -->
+  <rect x="485" y="38" width="36" height="36" rx="8" fill="#2d0070" opacity="0.8"/>
+  <text x="503" y="62" font-family="Arial" font-size="18" text-anchor="middle">💪</text>
+
+  <!-- GymLog title -->
+  <text x="532" y="52" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="700"
+        fill="#fbbf24" filter="url(#pg)">gymlog-pwa</text>
+  <text x="532" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc">Private · Fitness PWA</text>
+
+  <!-- Description -->
+  <text x="485" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">Progressive Web App for workout tracking.</text>
+  <text x="485" y="118" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">Full EN/ES i18n, offline support, installable</text>
+  <text x="485" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#e0e0e0">on any device. Zero backend required.</text>
+
+  <!-- Tags -->
+  <rect class="ptag" x="485" y="155" width="50" height="20" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="510" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">PWA</text>
+  <rect class="ptag" x="543" y="155" width="70" height="20" rx="4" fill="#1a0040" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="578" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle">JavaScript</text>
+  <rect class="ptag" x="621" y="155" width="40" height="20" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="641" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">i18n</text>
+  <rect class="ptag" x="669" y="155" width="70" height="20" rx="4" fill="#1a0040" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="704" y="169" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" text-anchor="middle">Offline-First</text>
+</svg>
