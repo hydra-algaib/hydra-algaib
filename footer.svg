@@ -12,41 +12,65 @@
       <stop offset="70%"  stop-color="#c084fc" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="fsig" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="40%"  stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff"  stop-opacity="0.35"/>
+      <stop offset="60%"  stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
     <filter id="ftg" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fsigglow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="fsoft" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="15"/>
     </filter>
+    <clipPath id="fsigclip"><rect x="310" y="68" width="280" height="32"/></clipPath>
     <style>
-      @keyframes fw1{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(-18px) translateY(7px)}}
-      @keyframes fw2{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(14px) translateY(-5px)}}
-      @keyframes fw3{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(-8px) translateY(3px)}}
-      @keyframes fw4{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(10px) translateY(-4px)}}
+      @keyframes fw1{0%,100%{transform:translate(0,0)}50%{transform:translate(-18px,7px)}}
+      @keyframes fw2{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,-5px)}}
+      @keyframes fw3{0%,100%{transform:translate(0,0)}50%{transform:translate(-8px,3px)}}
+      @keyframes fw4{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,-4px)}}
       @keyframes ffloat{0%,100%{transform:translateY(0);opacity:0.6}50%{transform:translateY(-14px);opacity:0.05}}
       @keyframes ffloat2{0%,100%{transform:translateY(0);opacity:0.4}50%{transform:translateY(-18px);opacity:0.05}}
       @keyframes fline{0%,100%{opacity:0.25}50%{opacity:0.6}}
-      @keyframes ftxt{0%,100%{opacity:0.6}50%{opacity:1}}
-      @keyframes fglow{0%,100%{opacity:0.05}50%{opacity:0.12}}
+      @keyframes ftxt{0%,100%{opacity:0.7}50%{opacity:1}}
+      @keyframes fglow{0%,100%{opacity:0.05}50%{opacity:0.14}}
+      @keyframes fscan{0%{transform:translateX(-900px)}100%{transform:translateX(900px)}}
+      @keyframes fshimmer{0%{transform:translateX(-300px)}100%{transform:translateX(300px)}}
+      @keyframes fdate{0%,100%{opacity:0.4}50%{opacity:0.8}}
       .fw1{animation:fw1 7s ease-in-out infinite}
       .fw2{animation:fw2 5s ease-in-out infinite}
       .fw3{animation:fw3 9s ease-in-out infinite}
       .fw4{animation:fw4 6s ease-in-out infinite}
-      .fp1{animation:ffloat  4s ease-in-out infinite}
-      .fp2{animation:ffloat2 5.5s ease-in-out infinite}
-      .fp3{animation:ffloat  3.5s ease-in-out infinite;animation-delay:-2s}
-      .fp4{animation:ffloat2 6s ease-in-out infinite;animation-delay:-1s}
-      .fp5{animation:ffloat  4.5s ease-in-out infinite;animation-delay:-3s}
+      .fp1{animation:ffloat  4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .fp2{animation:ffloat2 5.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .fp3{animation:ffloat  3.5s ease-in-out infinite;animation-delay:-2s;transform-box:fill-box;transform-origin:center}
+      .fp4{animation:ffloat2 6s ease-in-out infinite;animation-delay:-1s;transform-box:fill-box;transform-origin:center}
+      .fp5{animation:ffloat  4.5s ease-in-out infinite;animation-delay:-3s;transform-box:fill-box;transform-origin:center}
+      .fp6{animation:ffloat2 5s ease-in-out infinite;animation-delay:-2s;transform-box:fill-box;transform-origin:center}
+      .fp7{animation:ffloat  3.8s ease-in-out infinite;animation-delay:-1.5s;transform-box:fill-box;transform-origin:center}
       .fline{animation:fline 4s ease-in-out infinite}
       .ftxt{animation:ftxt 3s ease-in-out infinite}
       .fglow{animation:fglow 5s ease-in-out infinite}
+      .fscan{animation:fscan 7s linear infinite;opacity:0.04}
+      .fshimmer{animation:fshimmer 2.8s linear infinite}
+      .fdate{animation:fdate 4s ease-in-out infinite}
     </style>
   </defs>
 
   <!-- Glow blobs -->
   <circle class="fglow" cx="250" cy="80" r="100" fill="#c084fc" filter="url(#fsoft)"/>
-  <circle class="fglow" cx="650" cy="80" r="100" fill="#fbbf24" filter="url(#fsoft)"/>
+  <circle class="fglow" cx="650" cy="80" r="100" fill="#fbbf24" filter="url(#fsoft)" style="animation-delay:-2.5s"/>
+  <circle class="fglow" cx="450" cy="60" r="60"  fill="#fbbf24" filter="url(#fsoft)" style="animation-delay:-1.2s"/>
+
+  <!-- Scan shimmer -->
+  <rect class="fscan" x="0" y="0" width="80" height="140" fill="#c084fc"/>
 
   <!-- Top accent line -->
   <line class="fline" x1="0" y1="2" x2="900" y2="2" stroke="url(#fgold)" stroke-width="1.5"/>
@@ -61,23 +85,31 @@
   <path class="fw4" d="M0,95 C300,80 600,100 900,88 L900,140 L0,140 Z"
         fill="#0a0010"/>
 
-  <!-- Particles -->
+  <!-- Particles — more of them -->
   <circle class="fp1" cx="80"  cy="38" r="1.5" fill="#fbbf24"/>
   <circle class="fp2" cx="220" cy="28" r="1"   fill="#c084fc"/>
-  <circle class="fp3" cx="450" cy="22" r="2"   fill="#fbbf24"/>
-  <circle class="fp4" cx="680" cy="30" r="1"   fill="#c084fc"/>
-  <circle class="fp5" cx="820" cy="35" r="1.5" fill="#fbbf24"/>
+  <circle class="fp3" cx="380" cy="22" r="1.8" fill="#fbbf24"/>
+  <circle class="fp4" cx="520" cy="32" r="1"   fill="#c084fc"/>
+  <circle class="fp5" cx="680" cy="26" r="1.5" fill="#fbbf24"/>
+  <circle class="fp6" cx="800" cy="35" r="1.2" fill="#c084fc"/>
+  <circle class="fp7" cx="150" cy="55" r="1"   fill="#fbbf24"/>
 
-  <!-- Signature text -->
-  <text class="ftxt" x="450" y="88"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
-        fill="#fbbf24" text-anchor="middle" filter="url(#ftg)" letter-spacing="2">hydra-algaib</text>
+  <!-- Signature with stronger glow + shimmer -->
+  <text class="ftxt" x="450" y="86"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="800"
+        fill="#fbbf24" text-anchor="middle" filter="url(#fsigglow)" letter-spacing="3">hydra-algaib</text>
+  <!-- Shimmer overlay on signature -->
+  <rect class="fshimmer" x="310" y="68" width="60" height="32" fill="url(#fsig)" clip-path="url(#fsigclip)"/>
 
-  <text x="450" y="108"
+  <text x="450" y="106"
         font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#c084fc" text-anchor="middle" letter-spacing="1" opacity="0.7">Full Stack · AI · Freelance · Spain</text>
+        fill="#c084fc" text-anchor="middle" letter-spacing="1.5" opacity="0.75">Full Stack · AI · Freelance · Spain 🇪🇸</text>
 
-  <text x="450" y="126"
-        font-family="'Courier New',Courier,monospace" font-size="9"
-        fill="#2d0070" text-anchor="middle" opacity="0.6">// built in the dark, shipped to the world</text>
+  <text class="fdate" x="450" y="120"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="9"
+        fill="#fbbf24" text-anchor="middle" letter-spacing="1" opacity="0.5">Jun 2026 · profile launch 🚀</text>
+
+  <text x="450" y="133"
+        font-family="'Courier New',Courier,monospace" font-size="8"
+        fill="#2d0070" text-anchor="middle" opacity="0.55">// built in the dark, shipped to the world</text>
 </svg>
