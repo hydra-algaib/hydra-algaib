@@ -6,14 +6,15 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/avatar.svg" width="120" height="120"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/avatar.svg" width="160" height="160"/>
 
-<br/>
+<h2>hydra-algaib</h2>
 
-![Status](https://img.shields.io/badge/Status-Available_for_hire-fbbf24?style=flat-square&labelColor=1a0040)
-![Location](https://img.shields.io/badge/Location-Spain-c084fc?style=flat-square&labelColor=1a0040)
-![Focus](https://img.shields.io/badge/Focus-Full_Stack_·_AI-fbbf24?style=flat-square&labelColor=1a0040)
-![Profile Views](https://img.shields.io/badge/Profile_Views-Open_to_all-c084fc?style=flat-square&labelColor=1a0040)
+<p><em>Full Stack Engineer · AI Builder · Freelance</em></p>
+
+![Status](https://img.shields.io/badge/Status-Available_for_hire-fbbf24?style=for-the-badge&labelColor=1a0040)
+![Location](https://img.shields.io/badge/Location-Spain_🇪🇸-c084fc?style=for-the-badge&labelColor=1a0040)
+![Focus](https://img.shields.io/badge/Focus-Full_Stack_·_AI-fbbf24?style=for-the-badge&labelColor=1a0040)
 
 </div>
 
