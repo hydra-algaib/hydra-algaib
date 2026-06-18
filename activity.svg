@@ -5,11 +5,11 @@
       <stop offset="100%" stop-color="#1a0040"/>
     </linearGradient>
     <linearGradient id="aarea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="aspike" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
     </linearGradient>
     <filter id="ag" x="-10%" y="-30%" width="120%" height="160%">
@@ -20,26 +20,36 @@
       <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="ablob" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
     <style>
       @keyframes aline{0%,100%{opacity:0.8}50%{opacity:1}}
-      @keyframes adot{0%,100%{r:4;opacity:0.8}50%{r:6;opacity:1}}
-      @keyframes aspike{0%,100%{opacity:0.6}50%{opacity:1}}
+      @keyframes adot{0%,100%{r:4;opacity:0.8}50%{r:7;opacity:1}}
+      @keyframes aspike{0%,100%{opacity:0.55}50%{opacity:1}}
       @keyframes ascan{0%{transform:translateX(0)}100%{transform:translateX(820px)}}
+      @keyframes agl{0%,100%{opacity:0.06}50%{opacity:0.18}}
+      @keyframes aping{0%{r:6;opacity:0.7}100%{r:22;opacity:0}}
       .aline{animation:aline 3s ease-in-out infinite}
       .adot{animation:adot 2s ease-in-out infinite}
       .aspike{animation:aspike 1.5s ease-in-out infinite}
       .ascan{animation:ascan 8s linear infinite;opacity:0.06}
+      .agl{animation:agl 4s ease-in-out infinite}
+      .aping{animation:aping 2s ease-out infinite}
     </style>
   </defs>
 
   <rect width="900" height="200" rx="10" fill="url(#abg)"/>
   <rect width="898" height="198" x="1" y="1" rx="10" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.3"/>
 
-  <!-- Grid lines -->
-  <line x1="60" y1="30"  x2="880" y2="30"  stroke="#1a0040" stroke-width="1"/>
-  <line x1="60" y1="70"  x2="880" y2="70"  stroke="#1a0040" stroke-width="1"/>
-  <line x1="60" y1="110" x2="880" y2="110" stroke="#1a0040" stroke-width="1"/>
-  <line x1="60" y1="150" x2="880" y2="150" stroke="#1a0040" stroke-width="1"/>
+  <!-- Spike glow blob -->
+  <circle class="agl" cx="752" cy="50" r="30" fill="#fbbf24" filter="url(#ablob)"/>
+
+  <!-- Grid lines (slightly brighter) -->
+  <line x1="60" y1="30"  x2="880" y2="30"  stroke="#1e0050" stroke-width="1"/>
+  <line x1="60" y1="70"  x2="880" y2="70"  stroke="#1e0050" stroke-width="1"/>
+  <line x1="60" y1="110" x2="880" y2="110" stroke="#1e0050" stroke-width="1"/>
+  <line x1="60" y1="150" x2="880" y2="150" stroke="#1e0050" stroke-width="1"/>
 
   <!-- Y axis labels -->
   <text x="50" y="34"  font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#555" text-anchor="end">20</text>
@@ -57,25 +67,35 @@
 
   <!-- Area fill under line (violet) -->
   <polygon fill="url(#aarea)"
-    points="60,150 95,145 130,148 160,143 190,147 225,140 260,144 290,141 320,146 355,139 390,143 420,137 450,141 485,135 520,138 550,133 580,136 615,130 650,127 680,122 710,118 740,115 760,30 780,150 820,150 880,150 880,155 60,155"/>
+    points="60,150 95,145 130,148 160,143 190,147 225,140 260,144 290,141 320,146 355,139 390,143 420,137 450,141 485,135 520,138 550,133 580,136 615,130 650,127 680,122 710,118 740,115 752,32 760,115 780,118 820,120 860,117 880,115 880,155 60,155"/>
 
   <!-- Spike area fill (gold) -->
   <polygon class="aspike" fill="url(#aspike)"
-    points="748,150 756,150 756,30 748,30"/>
+    points="746,150 758,150 758,30 746,30"/>
 
   <!-- Main activity line -->
-  <polyline class="aline" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+  <polyline class="aline" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
     filter="url(#ag)"
     points="60,150 95,145 130,148 160,143 190,147 225,140 260,144 290,141 320,146 355,139 390,143 420,137 450,141 485,135 520,138 550,133 580,136 615,130 650,127 680,122 710,118 740,115 752,32 760,115 780,118 820,120 860,117 880,115"/>
 
+  <!-- Data point dots on line (key months) -->
+  <circle cx="95"  cy="145" r="2" fill="#c084fc" opacity="0.6"/>
+  <circle cx="225" cy="140" r="2" fill="#c084fc" opacity="0.6"/>
+  <circle cx="355" cy="139" r="2" fill="#c084fc" opacity="0.6"/>
+  <circle cx="485" cy="135" r="2" fill="#c084fc" opacity="0.6"/>
+  <circle cx="615" cy="130" r="2" fill="#c084fc" opacity="0.6"/>
+
+  <!-- Spike ping ring (expanding) -->
+  <circle class="aping" cx="752" cy="32" r="6" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+
   <!-- Spike dot -->
   <circle class="adot aspike" cx="752" cy="32" r="5" fill="#fbbf24" filter="url(#agg)"/>
-  <circle cx="752" cy="32" r="2.5" fill="#fbbf24"/>
+  <circle cx="752" cy="32" r="3" fill="#fbbf24"/>
 
   <!-- Spike label -->
-  <line x1="752" y1="42" x2="752" y2="155" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
-  <rect x="718" y="13" width="68" height="16" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
-  <text x="752" y="24" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="700">Jun 18 · +25</text>
+  <line x1="752" y1="44" x2="752" y2="150" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3 3" opacity="0.4"/>
+  <rect x="706" y="10" width="92" height="20" rx="5" fill="#1a0040" stroke="#fbbf24" stroke-width="1"/>
+  <text x="752" y="24" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="700">🚀 Jun 18 · +25 commits</text>
 
   <!-- Scan line animation -->
   <rect class="ascan" x="60" y="20" width="3" height="140" fill="#c084fc"/>
