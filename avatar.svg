@@ -24,14 +24,21 @@
     <style>
       @keyframes arot1{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
       @keyframes arot2{0%{transform:rotate(0deg)}100%{transform:rotate(-360deg)}}
-      @keyframes arot3{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
       @keyframes apulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
       @keyframes aeye{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
       @keyframes aorb{0%{transform:rotate(0deg) translateX(105px) rotate(0deg)}100%{transform:rotate(360deg) translateX(105px) rotate(-360deg)}}
       @keyframes aorb2{0%{transform:rotate(120deg) translateX(105px) rotate(-120deg)}100%{transform:rotate(480deg) translateX(105px) rotate(-480deg)}}
       @keyframes aorb3{0%{transform:rotate(240deg) translateX(105px) rotate(-240deg)}100%{transform:rotate(600deg) translateX(105px) rotate(-600deg)}}
-      @keyframes ahead{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.1)}}
+      /* Varied head amplitudes: 6px, 12px, 8px, 14px, 10px */
+      @keyframes ahead1{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-6px) scale(1.08)}}
+      @keyframes ahead2{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-12px) scale(1.12)}}
+      @keyframes ahead3{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-8px) scale(1.1)}}
+      @keyframes ahead4{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-14px) scale(1.13)}}
+      @keyframes ahead5{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-10px) scale(1.09)}}
       @keyframes aglow{0%,100%{opacity:0.06}50%{opacity:0.18}}
+      @keyframes aorbs{0%,100%{r:5;opacity:0.9}50%{r:6.5;opacity:1}}
+      @keyframes aorbs2{0%,100%{r:3;opacity:0.8}50%{r:4;opacity:1}}
+      @keyframes aorbs3{0%,100%{r:4;opacity:0.7}50%{r:5;opacity:0.9}}
       .ar1{animation:arot1 20s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .ar2{animation:arot2 15s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .ar3{animation:arot1 30s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
@@ -40,11 +47,12 @@
       .aorb1{animation:aorb  8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .aorb2{animation:aorb2 8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .aorb3{animation:aorb3 8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
-      .ah1{animation:ahead 3s ease-in-out infinite;transform-box:fill-box;transform-origin:200px 76px}
-      .ah2{animation:ahead 3s ease-in-out infinite;animation-delay:-0.6s;transform-box:fill-box;transform-origin:312px 116px}
-      .ah3{animation:ahead 3s ease-in-out infinite;animation-delay:-1.2s;transform-box:fill-box;transform-origin:284px 272px}
-      .ah4{animation:ahead 3s ease-in-out infinite;animation-delay:-1.8s;transform-box:fill-box;transform-origin:116px 272px}
-      .ah5{animation:ahead 3s ease-in-out infinite;animation-delay:-2.4s;transform-box:fill-box;transform-origin:88px 116px}
+      /* Pulsing orbital dot sizes (independent of orbit rotation — separate group trick not viable; keep size via filter) */
+      .ah1{animation:ahead1 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:200px 76px}
+      .ah2{animation:ahead2 3.4s ease-in-out infinite;animation-delay:-0.6s;transform-box:fill-box;transform-origin:312px 116px}
+      .ah3{animation:ahead3 3.1s ease-in-out infinite;animation-delay:-1.2s;transform-box:fill-box;transform-origin:284px 272px}
+      .ah4{animation:ahead4 3.7s ease-in-out infinite;animation-delay:-1.8s;transform-box:fill-box;transform-origin:116px 272px}
+      .ah5{animation:ahead5 3.3s ease-in-out infinite;animation-delay:-2.4s;transform-box:fill-box;transform-origin:88px 116px}
       .aglow{animation:aglow 5s ease-in-out infinite}
     </style>
   </defs>
@@ -68,12 +76,12 @@
 
   <circle cx="200" cy="200" r="124" fill="none" stroke="#c084fc" stroke-width="1" stroke-dasharray="6 8" opacity="0.4"/>
 
-  <!-- Orbiting dots -->
-  <circle class="aorb1" cx="200" cy="200" r="5" fill="#fbbf24" opacity="0.9" filter="url(#agold)"/>
-  <circle class="aorb2" cx="200" cy="200" r="4" fill="#c084fc" opacity="0.8" filter="url(#apurp)"/>
-  <circle class="aorb3" cx="200" cy="200" r="3.5" fill="#fbbf24" opacity="0.7"/>
+  <!-- Orbiting dots — varied sizes: 5, 3, 4 -->
+  <circle class="aorb1" cx="200" cy="200" r="5"   fill="#fbbf24" opacity="0.9" filter="url(#agold)"/>
+  <circle class="aorb2" cx="200" cy="200" r="3"   fill="#c084fc" opacity="0.85" filter="url(#apurp)"/>
+  <circle class="aorb3" cx="200" cy="200" r="4"   fill="#fbbf24" opacity="0.7"/>
 
-  <!-- 5 Hydra heads -->
+  <!-- 5 Hydra heads — each with unique amplitude via separate keyframe -->
   <g class="ah1">
     <polygon points="200,75 186,116 214,116" fill="#fbbf24" opacity="0.9" filter="url(#agold)"/>
     <polygon points="200,62 191,84 209,84" fill="#fbbf24" opacity="0.45"/>
