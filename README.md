@@ -80,6 +80,19 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <div align="center">
 
+### 💎 Featured Projects
+
+<br/>
+
+[![Sofia](https://github-readme-stats.vercel.app/api/pin/?username=hydra-algaib&repo=sofia-chatbot&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&hide_border=false)](https://github.com/hydra-algaib/sofia-chatbot)
+[![GymLog](https://github-readme-stats.vercel.app/api/pin/?username=hydra-algaib&repo=gymlog-pwa&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&hide_border=false)](https://github.com/hydra-algaib/gymlog-pwa)
+
+</div>
+
+---
+
+<div align="center">
+
 ### 🏆 Trophies
 
 <img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&title_color=fbbf24&bg_color=0a0010" />
