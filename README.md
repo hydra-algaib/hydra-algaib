@@ -21,7 +21,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=FBBf24&center=true&vCenter=true&width=600&lines=Building+complete+web+applications+%F0%9F%9A%80;AI+chatbots+%C2%B7+SaaS+tools+%C2%B7+Full+Stack+apps;From+zero+to+production%2C+end+to+end;Open+to+freelance+projects+%F0%9F%92%BC)](https://git.io/typing-svg)
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/typing.svg" width="700"/>
 
 </div>
 

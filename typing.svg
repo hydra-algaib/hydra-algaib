@@ -1,0 +1,57 @@
+<svg width="700" height="60" viewBox="0 0 700 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tybg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0010" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#0a0010" stop-opacity="1"/>
+      <stop offset="85%"  stop-color="#0a0010" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes t1{0%,18%{opacity:1}19%,100%{opacity:0}}
+      @keyframes t2{0%,18%{opacity:0}19%,36%{opacity:1}37%,100%{opacity:0}}
+      @keyframes t3{0%,36%{opacity:0}37%,54%{opacity:1}55%,100%{opacity:0}}
+      @keyframes t4{0%,54%{opacity:0}55%,72%{opacity:1}73%,100%{opacity:0}}
+      @keyframes t5{0%,72%{opacity:0}73%,90%{opacity:1}91%,100%{opacity:0}}
+      @keyframes tblink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes tglow{0%,100%{opacity:0.8}50%{opacity:1}}
+      .ty1{animation:t1 10s ease-in-out infinite}
+      .ty2{animation:t2 10s ease-in-out infinite}
+      .ty3{animation:t3 10s ease-in-out infinite}
+      .ty4{animation:t4 10s ease-in-out infinite}
+      .ty5{animation:t5 10s ease-in-out infinite}
+      .cursor{animation:tblink 0.8s step-end infinite}
+      .tg{animation:tglow 3s ease-in-out infinite}
+    </style>
+    <filter id="tyf" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="700" height="60" fill="#0a0010"/>
+  <rect width="700" height="60" fill="url(#tybg)"/>
+
+  <!-- Line 1 -->
+  <text class="ty1 tg" x="350" y="38" font-family="'Courier New',Courier,monospace" font-size="18" font-weight="600"
+        fill="#fbbf24" text-anchor="middle" filter="url(#tyf)">Building complete web applications 🚀</text>
+
+  <!-- Line 2 -->
+  <text class="ty2 tg" x="350" y="38" font-family="'Courier New',Courier,monospace" font-size="18" font-weight="600"
+        fill="#fbbf24" text-anchor="middle" filter="url(#tyf)">AI chatbots · SaaS tools · Full Stack apps</text>
+
+  <!-- Line 3 -->
+  <text class="ty3 tg" x="350" y="38" font-family="'Courier New',Courier,monospace" font-size="18" font-weight="600"
+        fill="#fbbf24" text-anchor="middle" filter="url(#tyf)">From zero to production, end to end</text>
+
+  <!-- Line 4 -->
+  <text class="ty4 tg" x="350" y="38" font-family="'Courier New',Courier,monospace" font-size="18" font-weight="600"
+        fill="#fbbf24" text-anchor="middle" filter="url(#tyf)">Open to freelance projects 💼</text>
+
+  <!-- Line 5 -->
+  <text class="ty5 tg" x="350" y="38" font-family="'Courier New',Courier,monospace" font-size="18" font-weight="600"
+        fill="#fbbf24" text-anchor="middle" filter="url(#tyf)">hydra-algaib · Spain 🇪🇸 · Available now</text>
+
+  <!-- Blinking cursor overlay -->
+  <text class="cursor" x="620" y="38" font-family="'Courier New',Courier,monospace" font-size="20"
+        font-weight="700" fill="#c084fc">_</text>
+</svg>
