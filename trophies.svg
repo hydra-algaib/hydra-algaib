@@ -1,75 +1,172 @@
-<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0010"/><stop offset="100%" stop-color="#1a0040"/>
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#1a0040"/>
     </linearGradient>
     <linearGradient id="tcard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1a0040"/><stop offset="100%" stop-color="#0d0025"/>
+      <stop offset="0%" stop-color="#180035"/>
+      <stop offset="100%" stop-color="#0a001a"/>
+    </linearGradient>
+    <linearGradient id="tgold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="tsilv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
     </linearGradient>
     <filter id="tg" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
     </filter>
     <style>
       @keyframes tb{0%,100%{opacity:0.4;stroke:#c084fc}50%{opacity:1;stroke:#fbbf24}}
-      @keyframes ti{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.15)}}
-      @keyframes tl{0%,100%{opacity:0.7}50%{opacity:1}}
-      .tb1{animation:tb 3s ease-in-out infinite}
-      .tb2{animation:tb 3s ease-in-out infinite;animation-delay:-0.5s}
-      .tb3{animation:tb 3s ease-in-out infinite;animation-delay:-1s}
-      .tb4{animation:tb 3s ease-in-out infinite;animation-delay:-1.5s}
-      .tb5{animation:tb 3s ease-in-out infinite;animation-delay:-2s}
-      .tb6{animation:tb 3s ease-in-out infinite;animation-delay:-2.5s}
-      .ti1{animation:ti 3s ease-in-out infinite}
-      .ti2{animation:ti 3s ease-in-out infinite;animation-delay:-0.5s}
-      .ti3{animation:ti 3s ease-in-out infinite;animation-delay:-1s}
-      .ti4{animation:ti 3s ease-in-out infinite;animation-delay:-1.5s}
-      .ti5{animation:ti 3s ease-in-out infinite;animation-delay:-2s}
-      .ti6{animation:ti 3s ease-in-out infinite;animation-delay:-2.5s}
-      .tl{animation:tl 2s ease-in-out infinite}
+      @keyframes tb2{0%,100%{opacity:1;stroke:#fbbf24}50%{opacity:0.4;stroke:#c084fc}}
+      @keyframes trise{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-5px) scale(1.06)}}
+      @keyframes tgl{0%,100%{opacity:0.1}50%{opacity:0.3}}
+      @keyframes tshine{0%,100%{opacity:0.2}50%{opacity:0.6}}
+      .tb1{animation:tb  3s ease-in-out infinite}
+      .tb2{animation:tb2 3s ease-in-out infinite;animation-delay:-0.5s}
+      .tb3{animation:tb  3s ease-in-out infinite;animation-delay:-1s}
+      .tb4{animation:tb2 3s ease-in-out infinite;animation-delay:-1.5s}
+      .tb5{animation:tb  3s ease-in-out infinite;animation-delay:-2s}
+      .tb6{animation:tb2 3s ease-in-out infinite;animation-delay:-2.5s}
+      .tr1{animation:trise 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .tr2{animation:trise 3s ease-in-out infinite;animation-delay:-0.5s;transform-box:fill-box;transform-origin:center}
+      .tr3{animation:trise 3s ease-in-out infinite;animation-delay:-1s;transform-box:fill-box;transform-origin:center}
+      .tr4{animation:trise 3s ease-in-out infinite;animation-delay:-1.5s;transform-box:fill-box;transform-origin:center}
+      .tr5{animation:trise 3s ease-in-out infinite;animation-delay:-2s;transform-box:fill-box;transform-origin:center}
+      .tr6{animation:trise 3s ease-in-out infinite;animation-delay:-2.5s;transform-box:fill-box;transform-origin:center}
+      .tgl{animation:tgl 3s ease-in-out infinite}
+      .tshine{animation:tshine 2s ease-in-out infinite}
     </style>
   </defs>
-  <rect width="900" height="160" fill="url(#tbg)"/>
 
-  <!-- Trophy 1: First Commit -->
-  <rect x="10"  y="15" width="132" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb1" x="10" y="15" width="132" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti1" x="76" y="72" font-family="Arial" font-size="28" text-anchor="middle">🌱</text>
-  <text class="tl" x="76" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">First Commit</text>
-  <text x="76" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">The journey starts</text>
+  <rect width="900" height="200" fill="url(#tbg)"/>
 
-  <!-- Trophy 2: Full Stack -->
-  <rect x="158" y="15" width="132" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb2" x="158" y="15" width="132" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti2" x="224" y="72" font-family="Arial" font-size="28" text-anchor="middle">⚡</text>
-  <text class="tl" x="224" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Full Stack</text>
-  <text x="224" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Front to back</text>
+  <!-- Trophy macro: cx=center, data offset per trophy -->
+  <!-- Trophy positions (center x): 75, 225, 375, 525, 675, 825 -->
+  <!-- Card width 130, gap 20 -->
 
-  <!-- Trophy 3: AI Builder -->
-  <rect x="306" y="15" width="132" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb3" x="306" y="15" width="132" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti3" x="372" y="72" font-family="Arial" font-size="28" text-anchor="middle">🤖</text>
-  <text class="tl" x="372" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">AI Builder</text>
-  <text x="372" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Shipped AI products</text>
+  <!-- Helper: draw a cup shape centered at cx, top at cy -->
+  <!-- Cup: bowl ellipse top, trapezoid body, stem rect, base rect -->
 
-  <!-- Trophy 4: SaaS Maker -->
-  <rect x="454" y="15" width="132" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb4" x="454" y="15" width="132" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti4" x="520" y="72" font-family="Arial" font-size="28" text-anchor="middle">🏢</text>
-  <text class="tl" x="520" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">SaaS Maker</text>
-  <text x="520" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Built for business</text>
+  <!-- ── TROPHY 1: First Commit 🌱 ── cx=75 -->
+  <rect x="10" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb1" x="10" y="10" width="130" height="180" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="tgl" cx="75" cy="80" r="30" fill="#fbbf24" filter="url(#tglow)"/>
+  <g class="tr1">
+    <!-- Cup bowl -->
+    <path d="M55,35 Q55,75 75,80 Q95,75 95,35 Z" fill="url(#tgold)" opacity="0.9"/>
+    <!-- Cup handles -->
+    <path d="M55,42 Q45,42 45,55 Q45,65 55,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <path d="M95,42 Q105,42 105,55 Q105,65 95,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <!-- Stem -->
+    <rect x="72" y="80" width="6" height="12" fill="url(#tgold)" opacity="0.8"/>
+    <!-- Base -->
+    <rect x="60" y="92" width="30" height="5" rx="2" fill="url(#tgold)" opacity="0.9"/>
+    <!-- Shine -->
+    <line class="tshine" x1="63" y1="40" x2="63" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="75" y="118" font-family="Arial" font-size="14" text-anchor="middle">🌱</text>
+  <text x="75" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">First Commit</text>
+  <text x="75" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">The journey starts</text>
+  <line x1="22" y1="168" x2="128" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="75" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Jun 2026</text>
 
-  <!-- Trophy 5: Automation Pro -->
-  <rect x="602" y="15" width="132" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb5" x="602" y="15" width="132" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti5" x="668" y="72" font-family="Arial" font-size="28" text-anchor="middle">⚙️</text>
-  <text class="tl" x="668" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Automation Pro</text>
-  <text x="668" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Systems that work</text>
+  <!-- ── TROPHY 2: Full Stack ⚡ ── cx=225 -->
+  <rect x="160" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb2" x="160" y="10" width="130" height="180" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle class="tgl" cx="225" cy="80" r="30" fill="#c084fc" filter="url(#tglow)"/>
+  <g class="tr2">
+    <path d="M205,35 Q205,75 225,80 Q245,75 245,35 Z" fill="url(#tsilv)" opacity="0.9"/>
+    <path d="M205,42 Q195,42 195,55 Q195,65 205,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <path d="M245,42 Q255,42 255,55 Q255,65 245,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <rect x="222" y="80" width="6" height="12" fill="url(#tsilv)" opacity="0.8"/>
+    <rect x="210" y="92" width="30" height="5" rx="2" fill="url(#tsilv)" opacity="0.9"/>
+    <line class="tshine" x1="213" y1="40" x2="213" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="225" y="118" font-family="Arial" font-size="14" text-anchor="middle">⚡</text>
+  <text x="225" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Full Stack</text>
+  <text x="225" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Front to back</text>
+  <line x1="172" y1="168" x2="278" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="225" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">JS · TS · Node · React</text>
 
-  <!-- Trophy 6: Open Source -->
-  <rect x="750" y="15" width="140" height="130" rx="10" fill="url(#tcard)"/>
-  <rect class="tb6" x="750" y="15" width="140" height="130" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
-  <text class="ti6" x="820" y="72" font-family="Arial" font-size="28" text-anchor="middle">🌐</text>
-  <text class="tl" x="820" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Open Source</text>
-  <text x="820" y="116" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">Building in public</text>
+  <!-- ── TROPHY 3: AI Builder 🤖 ── cx=375 -->
+  <rect x="310" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb3" x="310" y="10" width="130" height="180" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="tgl" cx="375" cy="80" r="30" fill="#fbbf24" filter="url(#tglow)"/>
+  <g class="tr3">
+    <path d="M355,35 Q355,75 375,80 Q395,75 395,35 Z" fill="url(#tgold)" opacity="0.9"/>
+    <path d="M355,42 Q345,42 345,55 Q345,65 355,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <path d="M395,42 Q405,42 405,55 Q405,65 395,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <rect x="372" y="80" width="6" height="12" fill="url(#tgold)" opacity="0.8"/>
+    <rect x="360" y="92" width="30" height="5" rx="2" fill="url(#tgold)" opacity="0.9"/>
+    <line class="tshine" x1="363" y1="40" x2="363" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="375" y="118" font-family="Arial" font-size="14" text-anchor="middle">🤖</text>
+  <text x="375" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">AI Builder</text>
+  <text x="375" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Shipped AI products</text>
+  <line x1="322" y1="168" x2="428" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="375" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Claude API · Tool use</text>
+
+  <!-- ── TROPHY 4: SaaS Maker 🏢 ── cx=525 -->
+  <rect x="460" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb4" x="460" y="10" width="130" height="180" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle class="tgl" cx="525" cy="80" r="30" fill="#c084fc" filter="url(#tglow)"/>
+  <g class="tr4">
+    <path d="M505,35 Q505,75 525,80 Q545,75 545,35 Z" fill="url(#tsilv)" opacity="0.9"/>
+    <path d="M505,42 Q495,42 495,55 Q495,65 505,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <path d="M545,42 Q555,42 555,55 Q555,65 545,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <rect x="522" y="80" width="6" height="12" fill="url(#tsilv)" opacity="0.8"/>
+    <rect x="510" y="92" width="30" height="5" rx="2" fill="url(#tsilv)" opacity="0.9"/>
+    <line class="tshine" x1="513" y1="40" x2="513" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="525" y="118" font-family="Arial" font-size="14" text-anchor="middle">🏢</text>
+  <text x="525" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">SaaS Maker</text>
+  <text x="525" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Built for business</text>
+  <line x1="472" y1="168" x2="578" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="525" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Admin · Auth · Multi-tenant</text>
+
+  <!-- ── TROPHY 5: Automation Pro ⚙️ ── cx=675 -->
+  <rect x="610" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb5" x="610" y="10" width="130" height="180" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <circle class="tgl" cx="675" cy="80" r="30" fill="#fbbf24" filter="url(#tglow)"/>
+  <g class="tr5">
+    <path d="M655,35 Q655,75 675,80 Q695,75 695,35 Z" fill="url(#tgold)" opacity="0.9"/>
+    <path d="M655,42 Q645,42 645,55 Q645,65 655,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <path d="M695,42 Q705,42 705,55 Q705,65 695,65" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+    <rect x="672" y="80" width="6" height="12" fill="url(#tgold)" opacity="0.8"/>
+    <rect x="660" y="92" width="30" height="5" rx="2" fill="url(#tgold)" opacity="0.9"/>
+    <line class="tshine" x1="663" y1="40" x2="663" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="675" y="118" font-family="Arial" font-size="14" text-anchor="middle">⚙️</text>
+  <text x="675" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Automation Pro</text>
+  <text x="675" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Systems that work</text>
+  <line x1="622" y1="168" x2="728" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="675" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Cron · Webhooks · Events</text>
+
+  <!-- ── TROPHY 6: Open Source 🌐 ── cx=825 -->
+  <rect x="760" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
+  <rect class="tb6" x="760" y="10" width="130" height="180" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle class="tgl" cx="825" cy="80" r="30" fill="#c084fc" filter="url(#tglow)"/>
+  <g class="tr6">
+    <path d="M805,35 Q805,75 825,80 Q845,75 845,35 Z" fill="url(#tsilv)" opacity="0.9"/>
+    <path d="M805,42 Q795,42 795,55 Q795,65 805,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <path d="M845,42 Q855,42 855,55 Q855,65 845,65" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <rect x="822" y="80" width="6" height="12" fill="url(#tsilv)" opacity="0.8"/>
+    <rect x="810" y="92" width="30" height="5" rx="2" fill="url(#tsilv)" opacity="0.9"/>
+    <line class="tshine" x1="813" y1="40" x2="813" y2="72" stroke="#fff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <text x="825" y="118" font-family="Arial" font-size="14" text-anchor="middle">🌐</text>
+  <text x="825" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">Open Source</text>
+  <text x="825" y="155" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Building in public</text>
+  <line x1="772" y1="168" x2="878" y2="168" stroke="#2d0070" stroke-width="0.8"/>
+  <text x="825" y="180" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">GitHub · hydra-algaib</text>
 </svg>
