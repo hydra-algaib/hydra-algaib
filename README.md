@@ -28,9 +28,11 @@
 
 <br/>
 
-I build complete web applications — from idea to production. My focus is on **AI chatbots**, **SaaS platforms**, **admin dashboards** and **automation systems**.
+<div align="center">
 
-Currently building my freelance brand and taking on independent projects from Spain 🇪🇸
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/intro.svg" width="100%"/>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 

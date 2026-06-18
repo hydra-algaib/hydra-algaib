@@ -1,0 +1,35 @@
+<svg width="900" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ibg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d001a"/>
+      <stop offset="50%" stop-color="#1a0040"/>
+      <stop offset="100%" stop-color="#0d001a"/>
+    </linearGradient>
+    <filter id="ig" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes ipulse{0%,100%{opacity:0.75}50%{opacity:1}}
+      @keyframes ibar{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .it{animation:ipulse 4s ease-in-out infinite}
+      .ib{animation:ibar 3s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="900" height="100" rx="8" fill="url(#ibg)"/>
+
+  <!-- Accent bars -->
+  <rect class="ib" x="0" y="0" width="4" height="100" rx="2" fill="#fbbf24"/>
+  <rect class="ib" x="896" y="0" width="4" height="100" rx="2" fill="#c084fc"/>
+
+  <!-- Main bio text -->
+  <text class="it" x="450" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="600"
+        fill="#ffffff" text-anchor="middle" filter="url(#ig)">I build complete web applications — from idea to production.</text>
+
+  <text x="450" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="13"
+        fill="#c084fc" text-anchor="middle">Focus: <tspan fill="#fbbf24">AI chatbots</tspan> · <tspan fill="#fbbf24">SaaS platforms</tspan> · <tspan fill="#fbbf24">admin dashboards</tspan> · <tspan fill="#fbbf24">automation systems</tspan></text>
+
+  <text x="450" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="12"
+        fill="#777" text-anchor="middle">Currently building my freelance brand · taking on independent projects from Spain 🇪🇸</text>
+</svg>
