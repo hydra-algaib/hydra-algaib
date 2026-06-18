@@ -58,12 +58,16 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&ring_color=fbbf24&hide_title=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydra-algaib&layout=compact&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&text_color=ffffff&border_color=c084fc&hide_title=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&ring_color=fbbf24&hide_title=true&include_all_commits=true" />
 
 <br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hydra-algaib&hide_border=false&background=0a0010&ring=fbbf24&fire=c084fc&currStreakLabel=fbbf24&sideLabels=c084fc&dates=aaaaaa&currStreakNum=ffffff&sideNums=ffffff&border=c084fc" />
+
+<br/>
+
+![Commits](https://img.shields.io/badge/💻_Total_Commits-25+_this_year-fbbf24?style=for-the-badge&labelColor=1a0040)
+![Private](https://img.shields.io/badge/🔒_Repos-All_work_in_private_repos-c084fc?style=for-the-badge&labelColor=1a0040)
 
 </div>
 
