@@ -82,7 +82,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hydra-algaib&hide_border=false&background=0a0010&ring=fbbf24&fire=c084fc&currStreakLabel=fbbf24&sideLabels=c084fc&dates=aaaaaa&currStreakNum=ffffff&sideNums=ffffff&border=c084fc" />
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/streak.svg" width="100%"/>
 
 <br/>
 
