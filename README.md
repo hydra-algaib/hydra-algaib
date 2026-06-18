@@ -79,9 +79,9 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&ring_color=fbbf24&hide_title=true&include_all_commits=true" />
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/stats.svg" width="100%"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/streak.svg" width="100%"/>
 
