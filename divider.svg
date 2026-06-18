@@ -1,0 +1,27 @@
+<svg width="900" height="6" viewBox="0 0 900 6" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0010" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#2d0070" stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#2d0070" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0010" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#1a0040" stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#fbbf24" stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#1a0040" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes ds{0%,100%{opacity:0.5}50%{opacity:1}}
+      @keyframes ds2{0%,100%{opacity:1}50%{opacity:0.4}}
+      .dl{animation:ds 3s ease-in-out infinite}
+      .dl2{animation:ds2 3s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="900" height="6" fill="#0a0010"/>
+  <rect class="dl"  y="1" width="900" height="2" fill="url(#dg)"/>
+  <rect class="dl2" y="3" width="900" height="1" fill="url(#dg2)" opacity="0.6"/>
+</svg>

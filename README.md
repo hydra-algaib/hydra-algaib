@@ -31,7 +31,7 @@ I build complete web applications — from idea to production. My focus is on **
 
 Currently building my freelance brand and taking on independent projects from Spain 🇪🇸
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -70,7 +70,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -91,7 +91,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -119,7 +119,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -131,7 +131,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -141,7 +141,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
@@ -156,7 +156,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/divider.svg" width="100%"/>
 
 <div align="center">
 
