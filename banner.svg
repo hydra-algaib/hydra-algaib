@@ -1,0 +1,49 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0010"/>
+      <stop offset="40%" style="stop-color:#1a0040"/>
+      <stop offset="70%" style="stop-color:#2d0070"/>
+      <stop offset="100%" style="stop-color:#0a0010"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d0070;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#4a00a0;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#1a0040;stop-opacity:0.8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- Wave shapes -->
+  <path d="M0,200 C150,160 300,220 450,180 C600,140 750,200 900,170 C1050,140 1150,180 1200,160 L1200,280 L0,280 Z" fill="url(#wave1)" opacity="0.5"/>
+  <path d="M0,220 C200,190 400,240 600,210 C800,180 1000,230 1200,200 L1200,280 L0,280 Z" fill="#1a0040" opacity="0.7"/>
+
+  <!-- Decorative dots -->
+  <circle cx="80" cy="60" r="2" fill="#c084fc" opacity="0.6"/>
+  <circle cx="150" cy="40" r="1.5" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="220" cy="80" r="1" fill="#c084fc" opacity="0.4"/>
+  <circle cx="1050" cy="50" r="2" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="1120" cy="80" r="1.5" fill="#c084fc" opacity="0.5"/>
+  <circle cx="1000" cy="40" r="1" fill="#fbbf24" opacity="0.4"/>
+
+  <!-- Thin accent line -->
+  <line x1="0" y1="4" x2="1200" y2="4" stroke="#c084fc" stroke-width="2" opacity="0.4"/>
+
+  <!-- Main title -->
+  <text x="600" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#glow)">hydra-algaib</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#c084fc" text-anchor="middle">Full Stack Developer · AI &amp; Automation · Freelance · Spain 🇪🇸</text>
+
+  <!-- Bottom accent line -->
+  <line x1="400" y1="190" x2="800" y2="190" stroke="#fbbf24" stroke-width="1" opacity="0.3"/>
+</svg>
