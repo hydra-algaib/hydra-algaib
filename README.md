@@ -107,7 +107,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 ### 🏆 Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/trophies.svg" width="100%"/>
 
 </div>
 
