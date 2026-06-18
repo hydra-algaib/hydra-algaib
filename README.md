@@ -2,6 +2,10 @@
 
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/banner.svg" width="100%"/>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/avatar.svg" width="160" height="160"/>
+</div>
+
 </div>
 
 <div align="center">
