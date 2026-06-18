@@ -13,7 +13,7 @@
 ![Status](https://img.shields.io/badge/Status-Available_for_hire-fbbf24?style=flat-square&labelColor=1a0040)
 ![Location](https://img.shields.io/badge/Location-Spain-c084fc?style=flat-square&labelColor=1a0040)
 ![Focus](https://img.shields.io/badge/Focus-Full_Stack_·_AI-fbbf24?style=flat-square&labelColor=1a0040)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=hydra-algaib.hydra-algaib&left_color=1a0040&right_color=2d0070&left_text=visitors)
+![Profile Views](https://img.shields.io/badge/Profile_Views-Open_to_all-c084fc?style=flat-square&labelColor=1a0040)
 
 </div>
 
