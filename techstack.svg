@@ -1,0 +1,166 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tsbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#1a0040"/>
+    </linearGradient>
+    <linearGradient id="tscard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#140030"/>
+      <stop offset="100%" stop-color="#0a001a"/>
+    </linearGradient>
+    <filter id="tsg" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes tspulse{0%,100%{opacity:0.6}50%{opacity:1}}
+      @keyframes tsborder{0%,100%{opacity:0.35;stroke:#c084fc}50%{opacity:0.85;stroke:#fbbf24}}
+      @keyframes tsborder2{0%,100%{opacity:0.85;stroke:#fbbf24}50%{opacity:0.35;stroke:#c084fc}}
+      @keyframes tshover{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+      .tsb1{animation:tsborder  3s ease-in-out infinite}
+      .tsb2{animation:tsborder2 3s ease-in-out infinite;animation-delay:-1.5s}
+      .tsb3{animation:tsborder  3s ease-in-out infinite;animation-delay:-0.75s}
+      .tsb4{animation:tsborder2 3s ease-in-out infinite;animation-delay:-2.25s}
+      .tsl{animation:tspulse 2.5s ease-in-out infinite}
+      .tsh{animation:tshover 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    </style>
+  </defs>
+
+  <rect width="900" height="420" fill="url(#tsbg)"/>
+
+  <!-- ── SECTION 1: Core ── -->
+  <rect x="12" y="12" width="876" height="88" rx="8" fill="url(#tscard)"/>
+  <rect class="tsb1" x="12" y="12" width="876" height="88" rx="8" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <text class="tsl" x="26" y="34" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" filter="url(#tsg)">⚡ Core — Daily drivers</text>
+
+  <!-- Icon chips row 1: JS TS Node Python React Express HTML CSS -->
+  <!-- Each chip: 88x40, gap 6 -->
+  <!-- y=44 -->
+  <rect class="tsh" x="26"  y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#f7df1e" stroke-width="1"/>
+  <text x="70"  y="63" font-family="Arial" font-size="18" text-anchor="middle">🟨</text>
+  <text x="70"  y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#f7df1e" text-anchor="middle">JavaScript</text>
+
+  <rect class="tsh" x="122" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#3178c6" stroke-width="1"/>
+  <text x="166" y="63" font-family="Arial" font-size="18" text-anchor="middle">🔷</text>
+  <text x="166" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#3b98f7" text-anchor="middle">TypeScript</text>
+
+  <rect class="tsh" x="218" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#6cc24a" stroke-width="1"/>
+  <text x="262" y="63" font-family="Arial" font-size="18" text-anchor="middle">🟢</text>
+  <text x="262" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6cc24a" text-anchor="middle">Node.js</text>
+
+  <rect class="tsh" x="314" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#3572A5" stroke-width="1"/>
+  <text x="358" y="63" font-family="Arial" font-size="18" text-anchor="middle">🐍</text>
+  <text x="358" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#4b8bbe" text-anchor="middle">Python</text>
+
+  <rect class="tsh" x="410" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#61dafb" stroke-width="1"/>
+  <text x="454" y="63" font-family="Arial" font-size="18" text-anchor="middle">⚛️</text>
+  <text x="454" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#61dafb" text-anchor="middle">React</text>
+
+  <rect class="tsh" x="506" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#686868" stroke-width="1"/>
+  <text x="550" y="63" font-family="Arial" font-size="18" text-anchor="middle">🚂</text>
+  <text x="550" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Express</text>
+
+  <rect class="tsh" x="602" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#e34f26" stroke-width="1"/>
+  <text x="646" y="63" font-family="Arial" font-size="18" text-anchor="middle">🌐</text>
+  <text x="646" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#e34f26" text-anchor="middle">HTML5</text>
+
+  <rect class="tsh" x="698" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#264de4" stroke-width="1"/>
+  <text x="742" y="63" font-family="Arial" font-size="18" text-anchor="middle">🎨</text>
+  <text x="742" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#2965f1" text-anchor="middle">CSS3</text>
+
+  <!-- ── SECTION 2: Data & Infra ── -->
+  <rect x="12" y="112" width="876" height="88" rx="8" fill="url(#tscard)"/>
+  <rect class="tsb2" x="12" y="112" width="876" height="88" rx="8" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+  <text class="tsl" x="26" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" filter="url(#tsg)">🗄️ Data &amp; Infrastructure</text>
+
+  <rect class="tsh" x="26"  y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#4db33d" stroke-width="1"/>
+  <text x="70"  y="163" font-family="Arial" font-size="18" text-anchor="middle">🍃</text>
+  <text x="70"  y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#4db33d" text-anchor="middle">MongoDB</text>
+
+  <rect class="tsh" x="122" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#87ceeb" stroke-width="1"/>
+  <text x="166" y="163" font-family="Arial" font-size="18" text-anchor="middle">📦</text>
+  <text x="166" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#87ceeb" text-anchor="middle">SQLite</text>
+
+  <rect class="tsh" x="218" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#336791" stroke-width="1"/>
+  <text x="262" y="163" font-family="Arial" font-size="18" text-anchor="middle">🐘</text>
+  <text x="262" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5599cc" text-anchor="middle">PostgreSQL</text>
+
+  <rect class="tsh" x="314" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#dc382d" stroke-width="1"/>
+  <text x="358" y="163" font-family="Arial" font-size="18" text-anchor="middle">⚡</text>
+  <text x="358" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#dc382d" text-anchor="middle">Redis</text>
+
+  <rect class="tsh" x="410" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#ffca28" stroke-width="1"/>
+  <text x="454" y="163" font-family="Arial" font-size="18" text-anchor="middle">🔥</text>
+  <text x="454" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#ffca28" text-anchor="middle">Firebase</text>
+
+  <rect class="tsh" x="506" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#2496ed" stroke-width="1"/>
+  <text x="550" y="163" font-family="Arial" font-size="18" text-anchor="middle">🐳</text>
+  <text x="550" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#2496ed" text-anchor="middle">Docker</text>
+
+  <rect class="tsh" x="602" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#fcc624" stroke-width="1"/>
+  <text x="646" y="163" font-family="Arial" font-size="18" text-anchor="middle">🐧</text>
+  <text x="646" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fcc624" text-anchor="middle">Linux</text>
+
+  <rect class="tsh" x="698" y="144" width="88" height="48" rx="6" fill="#1a0040" stroke="#4eaa25" stroke-width="1"/>
+  <text x="742" y="163" font-family="Arial" font-size="18" text-anchor="middle">💻</text>
+  <text x="742" y="184" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#4eaa25" text-anchor="middle">Bash</text>
+
+  <!-- ── SECTION 3: Tools & AI ── -->
+  <rect x="12" y="212" width="876" height="88" rx="8" fill="url(#tscard)"/>
+  <rect class="tsb3" x="12" y="212" width="876" height="88" rx="8" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <text class="tsl" x="26" y="234" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" filter="url(#tsg)">🛠️ Tools &amp; AI Integrations</text>
+
+  <rect class="tsh" x="26"  y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#f05032" stroke-width="1"/>
+  <text x="70"  y="263" font-family="Arial" font-size="18" text-anchor="middle">🌿</text>
+  <text x="70"  y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#f05032" text-anchor="middle">Git</text>
+
+  <rect class="tsh" x="122" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#6e40c9" stroke-width="1"/>
+  <text x="166" y="263" font-family="Arial" font-size="18" text-anchor="middle">🐙</text>
+  <text x="166" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">GitHub</text>
+
+  <rect class="tsh" x="218" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#007acc" stroke-width="1"/>
+  <text x="262" y="263" font-family="Arial" font-size="18" text-anchor="middle">🔵</text>
+  <text x="262" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#007acc" text-anchor="middle">VS Code</text>
+
+  <rect class="tsh" x="314" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#ff6c37" stroke-width="1"/>
+  <text x="358" y="263" font-family="Arial" font-size="18" text-anchor="middle">📮</text>
+  <text x="358" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#ff6c37" text-anchor="middle">Postman</text>
+
+  <rect class="tsh" x="410" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#fbbf24" stroke-width="1"/>
+  <text x="454" y="263" font-family="Arial" font-size="18" text-anchor="middle">🤖</text>
+  <text x="454" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">Claude API</text>
+
+  <rect class="tsh" x="506" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#f22f46" stroke-width="1"/>
+  <text x="550" y="263" font-family="Arial" font-size="18" text-anchor="middle">📱</text>
+  <text x="550" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#f22f46" text-anchor="middle">Twilio</text>
+
+  <rect class="tsh" x="602" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#25d366" stroke-width="1"/>
+  <text x="646" y="263" font-family="Arial" font-size="18" text-anchor="middle">💬</text>
+  <text x="646" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#25d366" text-anchor="middle">WhatsApp</text>
+
+  <rect class="tsh" x="698" y="244" width="88" height="48" rx="6" fill="#1a0040" stroke="#c084fc" stroke-width="1"/>
+  <text x="742" y="263" font-family="Arial" font-size="18" text-anchor="middle">🔐</text>
+  <text x="742" y="284" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#c084fc" text-anchor="middle">JWT / REST</text>
+
+  <!-- ── SECTION 4: Learning ── -->
+  <rect x="12" y="312" width="876" height="96" rx="8" fill="url(#tscard)"/>
+  <rect class="tsb4" x="12" y="312" width="876" height="96" rx="8" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text class="tsl" x="26" y="334" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="700" fill="#fbbf24" filter="url(#tsg)">🔭 Currently Learning</text>
+
+  <rect class="tsh" x="26"  y="344" width="120" height="52" rx="6" fill="#1a0040" stroke="#dea584" stroke-width="1"/>
+  <text x="86"  y="364" font-family="Arial" font-size="18" text-anchor="middle">🦀</text>
+  <text x="86"  y="382" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#dea584" text-anchor="middle">Rust · systems</text>
+
+  <rect class="tsh" x="158" y="344" width="120" height="52" rx="6" fill="#1a0040" stroke="#00acd7" stroke-width="1"/>
+  <text x="218" y="364" font-family="Arial" font-size="18" text-anchor="middle">🐹</text>
+  <text x="218" y="382" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#00acd7" text-anchor="middle">Go · performance</text>
+
+  <rect class="tsh" x="290" y="344" width="120" height="52" rx="6" fill="#1a0040" stroke="#326ce5" stroke-width="1"/>
+  <text x="350" y="364" font-family="Arial" font-size="18" text-anchor="middle">☸️</text>
+  <text x="350" y="382" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#326ce5" text-anchor="middle">Kubernetes · ops</text>
+
+  <!-- Learning note -->
+  <text x="460" y="362" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#777">Expanding into low-level systems,</text>
+  <text x="460" y="380" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#777">high-performance backends and container orchestration.</text>
+  <text x="460" y="398" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#555">— building beyond the comfort zone</text>
+</svg>
