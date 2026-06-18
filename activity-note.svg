@@ -1,0 +1,25 @@
+<svg width="900" height="52" viewBox="0 0 900 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes anpulse{0%,100%{opacity:0.7}50%{opacity:1}}
+      @keyframes andot{0%,100%{r:4}50%{r:5.5}}
+      .anl{animation:anpulse 3s ease-in-out infinite}
+      .and{animation:andot 1.5s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="900" height="52" fill="#0a0010"/>
+
+  <!-- Green dot -->
+  <circle class="and" cx="28" cy="26" r="4" fill="#22c55e"/>
+  <text class="anl" x="40" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#22c55e">Active this week</text>
+
+  <text x="180" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#555">·</text>
+
+  <!-- Launch badge -->
+  <rect x="196" y="14" width="130" height="24" rx="4" fill="#1a0040" stroke="#c084fc" stroke-width="0.8"/>
+  <text x="261" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc" text-anchor="middle">🚀 Launched 18 Jun 2026</text>
+
+  <text x="340" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#555">·</text>
+
+  <text x="358" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#666" font-style="italic">The spike on Jun 18 marks the launch of this profile — 25+ commits building everything you see here.</text>
+</svg>

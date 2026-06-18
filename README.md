@@ -97,6 +97,8 @@
 
 ### 🏆 Trophies
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/trophies.svg" width="100%"/>
 
 </div>
@@ -107,12 +109,13 @@
 
 ### 📈 Activity
 
+<br/>
+
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/activity.svg" width="100%"/>
 
-![Active](https://img.shields.io/badge/🟢_Active_this_week-Jun_2026-fbbf24?style=flat-square&labelColor=1a0040)
-![Launch](https://img.shields.io/badge/🚀_Profile_launched-18_Jun_2026-c084fc?style=flat-square&labelColor=1a0040)
+<br/>
 
-*The spike on Jun 18 marks the launch of this profile — 25+ commits building everything you see here.*
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/activity-note.svg" width="100%"/>
 
 </div>
 
