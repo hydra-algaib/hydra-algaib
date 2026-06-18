@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=140&text=hydra-algaib&fontSize=48&fontColor=00fff5&desc=Full%20Stack%20Developer%20·%20Spain%20·%20Freelance&descSize=15&descColor=bf00ff&animation=fadeIn&fontAlignY=45&descAlignY=68" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0010,30:1a0040,60:2d0070,100:0a0010&height=280&section=header&text=hydra-algaib&fontSize=62&fontColor=fbbf24&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Automation%20%C2%B7%20Freelance%20%C2%B7%20Spain%20%F0%9F%87%AA%F0%9F%87%B8&descSize=17&descColor=c084fc&descAlignY=58" width="100%"/>
 
 </div>
 
-<br/>
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=00FFF5&center=true&vCenter=true&width=500&lines=Building+complete+web+applications+%F0%9F%9A%80;AI+chatbots+%C2%B7+SaaS+tools+%C2%B7+Automation;From+zero+to+production%2C+end+to+end;Open+to+freelance+projects+%F0%9F%92%BC)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=FBBf24&center=true&vCenter=true&width=600&lines=Building+complete+web+applications+%F0%9F%9A%80;AI+chatbots+%C2%B7+SaaS+tools+%C2%B7+Full+Stack+apps;From+zero+to+production%2C+end+to+end;Open+to+freelance+projects+%F0%9F%92%BC)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,8 +15,6 @@
 I build complete web applications — from idea to production. My focus is on **AI chatbots**, **SaaS platforms**, **admin dashboards** and **automation systems**.
 
 Currently building my freelance brand and taking on independent projects from Spain 🇪🇸
-
-<br/>
 
 ---
 
@@ -32,10 +28,10 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-![Claude API](https://img.shields.io/badge/Claude_API-0d0221?style=for-the-badge&logo=anthropic&logoColor=00fff5)
-![Twilio](https://img.shields.io/badge/Twilio-0d0221?style=for-the-badge&logo=twilio&logoColor=bf00ff)
-![WhatsApp](https://img.shields.io/badge/WhatsApp_API-0d0221?style=for-the-badge&logo=whatsapp&logoColor=00fff5)
-![REST](https://img.shields.io/badge/REST_APIs-0d0221?style=for-the-badge&logo=fastapi&logoColor=bf00ff)
+![Claude API](https://img.shields.io/badge/Claude_API-1a0040?style=for-the-badge&logo=anthropic&logoColor=fbbf24)
+![Twilio](https://img.shields.io/badge/Twilio-1a0040?style=for-the-badge&logo=twilio&logoColor=c084fc)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_API-1a0040?style=for-the-badge&logo=whatsapp&logoColor=fbbf24)
+![REST](https://img.shields.io/badge/REST_APIs-1a0040?style=for-the-badge&logo=fastapi&logoColor=c084fc)
 
 </div>
 
@@ -47,12 +43,12 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=false&count_private=true&bg_color=0d0221&title_color=00fff5&icon_color=bf00ff&text_color=ffffff&border_color=bf00ff&ring_color=00fff5&hide_title=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydra-algaib&layout=compact&hide_border=false&count_private=true&bg_color=0d0221&title_color=00fff5&text_color=ffffff&border_color=bf00ff&hide_title=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&icon_color=c084fc&text_color=ffffff&border_color=c084fc&ring_color=fbbf24&hide_title=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydra-algaib&layout=compact&hide_border=false&count_private=true&bg_color=0a0010&title_color=fbbf24&text_color=ffffff&border_color=c084fc&hide_title=true" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hydra-algaib&hide_border=false&background=0d0221&ring=00fff5&fire=bf00ff&currStreakLabel=00fff5&sideLabels=bf00ff&dates=aaaaaa&currStreakNum=ffffff&sideNums=ffffff&border=bf00ff" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hydra-algaib&hide_border=false&background=0a0010&ring=fbbf24&fire=c084fc&currStreakLabel=fbbf24&sideLabels=c084fc&dates=aaaaaa&currStreakNum=ffffff&sideNums=ffffff&border=c084fc" />
 
 </div>
 
@@ -75,14 +71,12 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <div align="center">
 
-### 📫 Contact
-
 💼 **Open to freelance projects** · *Disponible para proyectos freelance*
 
 *Reach out through GitHub*
 
-<br/>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=4&section=footer" width="100%"/>
-
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0010,30:1a0040,60:2d0070,100:0a0010&height=120&section=footer" width="100%"/>
 </div>
