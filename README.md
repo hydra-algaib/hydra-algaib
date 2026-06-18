@@ -132,7 +132,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 ### 📈 Activity
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hydra-algaib&bg_color=0a0010&color=fbbf24&line=c084fc&point=fbbf24&area=true&hide_border=true&area_color=2d0070" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/activity.svg" width="100%"/>
 
 ![Active](https://img.shields.io/badge/🟢_Active_this_week-Jun_2026-fbbf24?style=flat-square&labelColor=1a0040)
 ![Launch](https://img.shields.io/badge/🚀_Profile_launched-18_Jun_2026-c084fc?style=flat-square&labelColor=1a0040)
