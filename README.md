@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0010,30:1a0040,60:2d0070,100:0a0010&height=280&section=header&text=hydra-algaib&fontSize=62&fontColor=fbbf24&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Automation%20%C2%B7%20Freelance%20%C2%B7%20Spain%20%F0%9F%87%AA%F0%9F%87%B8&descSize=17&descColor=c084fc&descAlignY=58" width="100%"/>
 
@@ -12,15 +12,15 @@
 
 <br/>
 
-I build complete web applications — from idea to production. My focus is on **AI chatbots**, **SaaS platforms**, **admin dashboards** and **automation systems**.
+I build complete web applications â€” from idea to production. My focus is on **AI chatbots**, **SaaS platforms**, **admin dashboards** and **automation systems**.
 
-Currently building my freelance brand and taking on independent projects from Spain 🇪🇸
+Currently building my freelance brand and taking on independent projects from Spain ðŸ‡ªðŸ‡¸
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### ⚡ Tech Stack
+### âš¡ Tech Stack
 
 <br/>
 
@@ -35,11 +35,11 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### 📊 Stats
+### ðŸ“Š Stats
 
 <br/>
 
@@ -52,35 +52,35 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### 🚀 What I Build
+### ðŸš€ What I Build
 
 </div>
 
 <div align="center">
 
-![](https://img.shields.io/badge/🤖_AI_CHATBOTS-1a0040?style=for-the-badge&logoColor=fbbf24)
-![](https://img.shields.io/badge/Business_assistants_·_WhatsApp_·_Claude-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+![](https://img.shields.io/badge/ðŸ¤–_AI_CHATBOTS-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Business_assistants_Â·_WhatsApp_Â·_Claude-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
 
-![](https://img.shields.io/badge/🏢_SaaS_TOOLS-1a0040?style=for-the-badge&logoColor=c084fc)
-![](https://img.shields.io/badge/Admin_dashboards_·_Multi--tenant_platforms-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+![](https://img.shields.io/badge/ðŸ¢_SaaS_TOOLS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/Admin_dashboards_Â·_Multi--tenant_platforms-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
 
-![](https://img.shields.io/badge/⚙️_AUTOMATION-1a0040?style=for-the-badge&logoColor=fbbf24)
-![](https://img.shields.io/badge/Webhooks_·_Scheduled_tasks_·_Workflows-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+![](https://img.shields.io/badge/âš™ï¸_AUTOMATION-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Webhooks_Â·_Scheduled_tasks_Â·_Workflows-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
 
-![](https://img.shields.io/badge/🌐_FULL_STACK_APPS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/ðŸŒ_FULL_STACK_APPS-1a0040?style=for-the-badge&logoColor=c084fc)
 ![](https://img.shields.io/badge/End--to--end_web_applications_from_scratch-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### 💎 Featured Projects
+### ðŸ’Ž Featured Projects
 
 <br/>
 
@@ -89,31 +89,31 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### 🏆 Trophies
+### ðŸ† Trophies
 
 <img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&title_color=fbbf24&bg_color=0a0010" />
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-### 📈 Activity
+### ðŸ“ˆ Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hydra-algaib&bg_color=0a0010&color=fbbf24&line=c084fc&point=fbbf24&area=true&hide_border=true&area_color=2d0070" width="100%"/>
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2d0070,50:1a0040,100:2d0070&height=3&section=header" width="100%"/>
 
 <div align="center">
 
-💼 **Open to freelance projects** · *Disponible para proyectos freelance*
+ðŸ’¼ **Open to freelance projects** Â· *Disponible para proyectos freelance*
 
 *Reach out through GitHub*
 
@@ -122,3 +122,4 @@ Currently building my freelance brand and taking on independent projects from Sp
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0010,30:1a0040,60:2d0070,100:0a0010&height=120&section=footer" width="100%"/>
 </div>
+
