@@ -62,8 +62,7 @@
 
 <br/>
 
-![Commits](https://img.shields.io/badge/💻_Total_Commits-25+_this_year-fbbf24?style=for-the-badge&labelColor=1a0040)
-![Private](https://img.shields.io/badge/🔒_Repos-All_work_in_private_repos-c084fc?style=for-the-badge&labelColor=1a0040)
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/stats-note.svg" width="100%"/>
 
 </div>
 
