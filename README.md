@@ -75,17 +75,23 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-![](https://img.shields.io/badge/🤖_AI_CHATBOTS-1a0040?style=for-the-badge)
-![](https://img.shields.io/badge/Business_assistants_·_WhatsApp_·_Claude-0a0010?style=flat-square&color=2d0070)
+![](https://img.shields.io/badge/🤖_AI_CHATBOTS-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Claude_API_·_WhatsApp_·_Tool_use_·_Multi--turn_conversations-0a0010?style=flat-square&color=2d0070)
 
-![](https://img.shields.io/badge/🏢_SaaS_TOOLS-1a0040?style=for-the-badge)
-![](https://img.shields.io/badge/Admin_dashboards_·_Multi--tenant_platforms-0a0010?style=flat-square&color=2d0070)
+![](https://img.shields.io/badge/🏢_SaaS_TOOLS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/Admin_panels_·_Multi--tenant_·_Role--based_access_·_Billing_ready-0a0010?style=flat-square&color=2d0070)
 
-![](https://img.shields.io/badge/⚙️_AUTOMATION-1a0040?style=for-the-badge)
-![](https://img.shields.io/badge/Webhooks_·_Scheduled_tasks_·_Workflows-0a0010?style=flat-square&color=2d0070)
+![](https://img.shields.io/badge/⚙️_AUTOMATION-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Webhooks_·_Cron_jobs_·_Event--driven_workflows_·_API_integrations-0a0010?style=flat-square&color=2d0070)
 
-![](https://img.shields.io/badge/🌐_FULL_STACK_APPS-1a0040?style=for-the-badge)
-![](https://img.shields.io/badge/End--to--end_web_applications_from_scratch-0a0010?style=flat-square&color=2d0070)
+![](https://img.shields.io/badge/🌐_FULL_STACK_APPS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/REST_APIs_·_SPA_·_SSR_·_Deployment_·_Zero_to_production-0a0010?style=flat-square&color=2d0070)
+
+![](https://img.shields.io/badge/🔐_AUTH_&_SECURITY-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/JWT_·_Sessions_·_HMAC_·_Token_refresh_·_Role_middleware-0a0010?style=flat-square&color=2d0070)
+
+![](https://img.shields.io/badge/📱_PWA_&_MOBILE--FIRST-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/Service_workers_·_Offline_support_·_Installable_·_Responsive-0a0010?style=flat-square&color=2d0070)
 
 </div>
 
