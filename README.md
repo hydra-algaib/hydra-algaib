@@ -122,9 +122,22 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <div align="center">
 
-💼 **Open to freelance projects** · *Disponible para proyectos freelance*
+### 📫 Contact
 
-*Reach out through GitHub*
+<br/>
+
+![Available](https://img.shields.io/badge/💼_Freelance-Open_to_projects-fbbf24?style=for-the-badge&labelColor=1a0040)
+![GitHub](https://img.shields.io/badge/GitHub-hydra--algaib-c084fc?style=for-the-badge&logo=github&labelColor=1a0040)
+
+<br/>
+
+*Got a project in mind? Let's build something great together.*
+
+*¿Tienes un proyecto? Construyamos algo juntos.*
+
+<br/>
+
+![wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
 </div>
 
