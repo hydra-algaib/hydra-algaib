@@ -2,13 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/banner.svg" width="100%"/>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/avatar.svg" width="160" height="160"/>
-</div>
-
 </div>
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/avatar.svg" width="120" height="120"/>
+
+<br/>
 
 ![Status](https://img.shields.io/badge/Status-Available_for_hire-fbbf24?style=flat-square&labelColor=1a0040)
 ![Location](https://img.shields.io/badge/Location-Spain-c084fc?style=flat-square&labelColor=1a0040)
