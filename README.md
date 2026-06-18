@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=280&section=header&text=hydra-algaib&fontSize=62&fontColor=fbbf24&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Automation%20%C2%B7%20Freelance%20%C2%B7%20Spain&descSize=17&descColor=c084fc&descAlignY=58" width="100%"/>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/banner.svg" width="100%"/>
 
 </div>
 
