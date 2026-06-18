@@ -137,10 +137,6 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-![wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
 </div>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0010,30:1a0040,60:2d0070,100:0a0010&height=120&section=footer" width="100%"/>
-</div>
+<img src="https://raw.githubusercontent.com/hydra-algaib/hydra-algaib/main/footer.svg" width="100%"/>
