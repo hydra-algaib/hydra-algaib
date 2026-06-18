@@ -71,6 +71,26 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <div align="center">
 
+### 🏆 Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8&title_color=fbbf24&bg_color=0a0010" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 📈 Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hydra-algaib&bg_color=0a0010&color=fbbf24&line=c084fc&point=fbbf24&area=true&hide_border=true&area_color=2d0070" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
 💼 **Open to freelance projects** · *Disponible para proyectos freelance*
 
 *Reach out through GitHub*
