@@ -47,4 +47,4 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 💼 Available for freelance projects · *Disponible para proyectos freelance*
 
-📩 **manuelitojimenez7@gmail.com**
+📩 Contact me through GitHub or LinkedIn
