@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=280&section=header&text=hydra-algaib&fontSize=62&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Automation%20%C2%B7%20Freelance%20%C2%B7%20Spain&descSize=17&descColor=ffffffcc&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=280&section=header&text=hydra-algaib&fontSize=62&fontColor=fbbf24&animation=fadeIn&fontAlignY=40&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Automation%20%C2%B7%20Freelance%20%C2%B7%20Spain&descSize=17&descColor=c084fc&descAlignY=58" width="100%"/>
 
 </div>
 
@@ -104,7 +104,7 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 ### 🏆 Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=hydra-algaib&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
 
 </div>
 
