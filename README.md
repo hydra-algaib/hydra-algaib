@@ -60,12 +60,21 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 </div>
 
-| | |
-|:---|:---|
-| 🤖 **AI Chatbots** | Business assistants with WhatsApp & Claude integration |
-| 🏢 **SaaS Tools** | Admin dashboards, multi-tenant platforms |
-| ⚙️ **Automation** | Webhooks, scheduled tasks, workflow systems |
-| 🌐 **Full Stack Apps** | End-to-end web applications from scratch |
+<div align="center">
+
+![](https://img.shields.io/badge/🤖_AI_CHATBOTS-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Business_assistants_·_WhatsApp_·_Claude-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+
+![](https://img.shields.io/badge/🏢_SaaS_TOOLS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/Admin_dashboards_·_Multi--tenant_platforms-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+
+![](https://img.shields.io/badge/⚙️_AUTOMATION-1a0040?style=for-the-badge&logoColor=fbbf24)
+![](https://img.shields.io/badge/Webhooks_·_Scheduled_tasks_·_Workflows-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+
+![](https://img.shields.io/badge/🌐_FULL_STACK_APPS-1a0040?style=for-the-badge&logoColor=c084fc)
+![](https://img.shields.io/badge/End--to--end_web_applications_from_scratch-0a0010?style=flat-square&labelColor=0a0010&color=2d0070)
+
+</div>
 
 ---
 
