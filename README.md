@@ -39,14 +39,34 @@ Currently building my freelance brand and taking on independent projects from Sp
 
 <br/>
 
-[![Skills](https://skillicons.dev/icons?i=js,ts,nodejs,python,react,express,html,css,mongodb,git,github,vscode&theme=dark&perline=6)](https://skillicons.dev)
+**Core — Daily drivers**
 
-<br/>
+[![Skills](https://skillicons.dev/icons?i=js,ts,nodejs,python,react,express,html,css&theme=dark&perline=8)](https://skillicons.dev)
+
+**Data & Infrastructure**
+
+[![Skills](https://skillicons.dev/icons?i=mongodb,sqlite,postgresql,redis,firebase,docker,linux,bash&theme=dark&perline=8)](https://skillicons.dev)
+
+**Tools & Workflow**
+
+[![Skills](https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark&perline=8)](https://skillicons.dev)
+
+**AI & Integrations**
 
 ![Claude API](https://img.shields.io/badge/Claude_API-1a0040?style=for-the-badge&logo=anthropic&logoColor=fbbf24)
 ![Twilio](https://img.shields.io/badge/Twilio-1a0040?style=for-the-badge&logo=twilio&logoColor=c084fc)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-1a0040?style=for-the-badge&logo=whatsapp&logoColor=fbbf24)
 ![REST](https://img.shields.io/badge/REST_APIs-1a0040?style=for-the-badge&logo=fastapi&logoColor=c084fc)
+![JWT](https://img.shields.io/badge/JWT_Auth-1a0040?style=for-the-badge&logo=jsonwebtokens&logoColor=fbbf24)
+![PWA](https://img.shields.io/badge/PWA-1a0040?style=for-the-badge&logo=pwa&logoColor=c084fc)
+
+**🔭 Currently learning**
+
+[![Learning](https://skillicons.dev/icons?i=rust,go,kubernetes&theme=dark&perline=6)](https://skillicons.dev)
+
+![Rust](https://img.shields.io/badge/Rust-systems_programming-fbbf24?style=flat-square&labelColor=1a0040)
+![Go](https://img.shields.io/badge/Go-backend_performance-c084fc?style=flat-square&labelColor=1a0040)
+![K8s](https://img.shields.io/badge/Kubernetes-container_orchestration-fbbf24?style=flat-square&labelColor=1a0040)
 
 </div>
 
