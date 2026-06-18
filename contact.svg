@@ -1,0 +1,55 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="50%" stop-color="#1a0040"/>
+      <stop offset="100%" stop-color="#0a0010"/>
+    </linearGradient>
+    <filter id="cg" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes cpulse{0%,100%{opacity:1}50%{opacity:0.65}}
+      @keyframes cblink{0%,100%{opacity:0.8}50%{opacity:0.2}}
+      @keyframes cfloat{0%,100%{transform:translateY(0);opacity:0.6}50%{transform:translateY(-10px);opacity:0.1}}
+      @keyframes cfloat2{0%,100%{transform:translateY(0);opacity:0.5}50%{transform:translateY(-14px);opacity:0.1}}
+      @keyframes border-glow{0%,100%{opacity:0.4}50%{opacity:0.9}}
+      @keyframes dot-pulse{0%,100%{r:5;opacity:1}50%{r:7;opacity:0.6}}
+      .ctitle{animation:cpulse 3s ease-in-out infinite}
+      .csub{animation:cpulse 4s ease-in-out infinite}
+      .cp1{animation:cfloat 4s ease-in-out infinite}
+      .cp2{animation:cfloat2 5.5s ease-in-out infinite}
+      .cp3{animation:cfloat 3.5s ease-in-out infinite}
+      .cp4{animation:cfloat2 6s ease-in-out infinite}
+      .cp5{animation:cfloat 4.8s ease-in-out infinite}
+      .cborder{animation:border-glow 3s ease-in-out infinite}
+      .cdot{animation:dot-pulse 2s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="900" height="160" rx="12" fill="url(#cbg)"/>
+  <rect class="cborder" width="898" height="158" x="1" y="1" rx="12" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <line x1="0" y1="3" x2="900" y2="3" stroke="#fbbf24" stroke-width="1" opacity="0.3"/>
+
+  <!-- Particles -->
+  <circle class="cp1" cx="40"  cy="35" r="1.5" fill="#fbbf24"/>
+  <circle class="cp2" cx="120" cy="55" r="1"   fill="#c084fc"/>
+  <circle class="cp3" cx="800" cy="30" r="1.5" fill="#fbbf24"/>
+  <circle class="cp4" cx="860" cy="55" r="1"   fill="#c084fc"/>
+  <circle class="cp5" cx="450" cy="20" r="1"   fill="#fbbf24"/>
+
+  <!-- Green dot -->
+  <circle class="cdot" cx="290" cy="80" r="5" fill="#22c55e"/>
+
+  <!-- Main text -->
+  <text class="ctitle" x="450" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="700"
+        fill="#fbbf24" text-anchor="middle" filter="url(#cg)">Open to freelance projects</text>
+  <text class="csub" x="450" y="97" font-family="'Segoe UI',Arial,sans-serif" font-size="14"
+        fill="#c084fc" text-anchor="middle">Disponible para proyectos freelance · Reach out on GitHub</text>
+
+  <!-- Status badge text -->
+  <text x="306" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#22c55e">Available now</text>
+
+  <!-- Bottom line -->
+  <line x1="300" y1="120" x2="600" y2="120" stroke="#fbbf24" stroke-width="0.8" opacity="0.3"/>
+</svg>
