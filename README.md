@@ -1,48 +1,50 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=180&section=header&text=hydra-algaib&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Spain%20%F0%9F%87%AA%F0%9F%87%B8&descAlignY=56&descSize=16&descColor=ffffffaa" />
-</div>
+### Hi, I'm hydra-algaib 👋
 
-<div align="center">
+I build complete web applications — from idea to production. My focus is on functional, well-crafted products: **AI chatbots**, **SaaS platforms**, **admin dashboards** and **automation systems**.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=00FFF5&center=true&vCenter=true&width=500&lines=Building+products+from+scratch;AI+chatbots+%C2%B7+SaaS+tools+%C2%B7+Full+Stack;Available+for+freelance+projects)](https://git.io/typing-svg)
-
-</div>
+Currently building my freelance brand and taking on independent projects from Spain 🇪🇸
 
 ---
 
-I build complete web applications — from idea to production. My focus is on functional, well-crafted products: AI chatbots, SaaS platforms, admin dashboards and automation systems.
+### 🛠️ Skills
 
-Currently growing as an independent developer and building my freelance brand.
+**I work with**
 
----
+[![Skills](https://skillicons.dev/icons?i=js,ts,nodejs,python,react,express&theme=dark&perline=6)](https://skillicons.dev)
 
-**Stack**
+**Data & Tools**
 
-[![Skills](https://skillicons.dev/icons?i=js,ts,nodejs,python,react,express,html,css,mongodb,git&theme=dark&perline=10)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=mongodb,sqlite,mysql,git,github,vscode&theme=dark&perline=6)](https://skillicons.dev)
 
----
+**AI & Integrations**
 
-**GitHub Stats**
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=true&count_private=true&bg_color=00000000&title_color=00fff5&icon_color=bf00ff&text_color=ffffff&hide_title=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydra-algaib&layout=compact&hide_border=true&count_private=true&bg_color=00000000&title_color=00fff5&text_color=ffffff&hide_title=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hydra-algaib&hide_border=true&background=00000000&ring=00fff5&fire=bf00ff&currStreakLabel=00fff5&sideLabels=ffffff99&dates=ffffff66&currStreakNum=ffffff&sideNums=ffffff" />
-</div>
+![Claude API](https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-0d1117?style=flat-square&logo=fastapi&logoColor=white)
 
 ---
 
-**Let's work together**
+### 📊 GitHub Stats
 
-Got a project in mind? I build chatbots, SaaS tools and complete web apps end to end.
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=hydra-algaib&show_icons=true&hide_border=true&count_private=true&theme=tokyonight&hide_title=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydra-algaib&layout=compact&hide_border=true&count_private=true&theme=tokyonight&hide_title=true" />
 
-📩 [manuelitojimenez7@gmail.com](mailto:manuelitojimenez7@gmail.com)
+---
 
-🟢 Available for freelance — *Disponible para proyectos freelance*
+### 🚀 What I build
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=100&section=footer" />
-</div>
+| | |
+|---|---|
+| 🤖 **AI Chatbots** | Business assistants with WhatsApp & Claude integration |
+| 🏢 **SaaS Tools** | Admin dashboards, multi-tenant platforms |
+| ⚙️ **Automation** | Webhooks, scheduled tasks, workflow systems |
+| 🌐 **Full Stack Apps** | End-to-end web applications from scratch |
+
+---
+
+### 📫 How to reach me
+
+💼 Available for freelance projects · *Disponible para proyectos freelance*
+
+📩 **manuelitojimenez7@gmail.com**
