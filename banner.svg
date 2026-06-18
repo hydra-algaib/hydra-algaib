@@ -7,141 +7,109 @@
       <stop offset="100%" stop-color="#0a0010"/>
     </linearGradient>
     <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"/>
-      <stop offset="40%" stop-color="#fbbf24" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="60%" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="48%"  stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff"  stop-opacity="0.4"/>
+      <stop offset="52%"  stop-color="#fbbf24" stop-opacity="0"/>
       <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.08"/>
+    <linearGradient id="scangrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#c084fc" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow-gold" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="gg" x="-25%" y="-50%" width="150%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glow-purple" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="gp" x="-25%" y="-50%" width="150%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="halo" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
-    <clipPath id="banner-clip">
-      <rect width="1200" height="280"/>
-    </clipPath>
+    <clipPath id="clip"><rect width="1200" height="280"/></clipPath>
     <style>
-      @keyframes w1 { 0%,100%{transform:translateX(0) translateY(0)} 33%{transform:translateX(-25px) translateY(8px)} 66%{transform:translateX(15px) translateY(-5px)} }
-      @keyframes w2 { 0%,100%{transform:translateX(0) translateY(0)} 33%{transform:translateX(20px) translateY(-10px)} 66%{transform:translateX(-10px) translateY(6px)} }
-      @keyframes w3 { 0%,100%{transform:translateX(0) translateY(0)} 33%{transform:translateX(-15px) translateY(5px)} 66%{transform:translateX(25px) translateY(-8px)} }
-      @keyframes w4 { 0%,100%{transform:translateX(0) translateY(0)} 50%{transform:translateX(-30px) translateY(12px)} }
-      @keyframes w5 { 0%,100%{transform:translateX(0) translateY(0)} 50%{transform:translateX(18px) translateY(-6px)} }
-
-      @keyframes title-pulse { 0%,100%{opacity:1} 50%{opacity:0.88} }
-      @keyframes sub-pulse { 0%,100%{opacity:1} 50%{opacity:0.65} }
-
-      @keyframes shimmer-move { 0%{transform:translateX(-1200px)} 100%{transform:translateX(1200px)} }
-      @keyframes scan-move { 0%{transform:translateY(-280px)} 100%{transform:translateY(280px)} }
-
-      @keyframes line-pulse { 0%,100%{opacity:0.25} 50%{opacity:0.75} }
-      @keyframes sep-pulse { 0%,100%{transform:scaleX(1);opacity:0.35} 50%{transform:scaleX(1.18);opacity:0.7} }
-      @keyframes halo-pulse { 0%,100%{opacity:0.12;transform:scale(1)} 50%{opacity:0.28;transform:scale(1.05)} }
-
-      @keyframes fp { 0%,100%{transform:translateY(0);opacity:var(--o1)} 50%{transform:translateY(var(--dy));opacity:var(--o2)} }
-
-      @keyframes diamond-spin { 0%,100%{transform:rotate(0deg) scale(1);opacity:0.4} 50%{transform:rotate(45deg) scale(1.3);opacity:0.15} }
-      @keyframes geo-float { 0%,100%{transform:translateY(0) rotate(0deg);opacity:0.3} 50%{transform:translateY(-18px) rotate(180deg);opacity:0.08} }
-
+      @keyframes w1{0%,100%{transform:translate(0,0)}33%{transform:translate(-25px,8px)}66%{transform:translate(15px,-5px)}}
+      @keyframes w2{0%,100%{transform:translate(0,0)}33%{transform:translate(20px,-10px)}66%{transform:translate(-10px,6px)}}
+      @keyframes w3{0%,100%{transform:translate(0,0)}33%{transform:translate(-15px,5px)}66%{transform:translate(25px,-8px)}}
+      @keyframes w4{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,12px)}}
+      @keyframes w5{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-6px)}}
+      @keyframes shimmer{0%{transform:translateX(-1200px)}100%{transform:translateX(2400px)}}
+      @keyframes scan{0%{transform:translateY(-60px)}100%{transform:translateY(340px)}}
+      @keyframes tpulse{0%,100%{opacity:1}50%{opacity:0.85}}
+      @keyframes spulse{0%,100%{opacity:1}50%{opacity:0.6}}
+      @keyframes lpulse{0%,100%{opacity:0.25}50%{opacity:0.8}}
+      @keyframes sepx{0%,100%{transform:scaleX(1);opacity:0.4}50%{transform:scaleX(1.2);opacity:0.75}}
+      @keyframes hpulse{0%,100%{opacity:0.18}50%{opacity:0.35}}
+      @keyframes fa{0%,100%{transform:translateY(0);opacity:0.7}50%{transform:translateY(-16px);opacity:0.15}}
+      @keyframes fb{0%,100%{transform:translateY(0);opacity:0.6}50%{transform:translateY(-22px);opacity:0.1}}
+      @keyframes fc{0%,100%{transform:translateY(0);opacity:0.5}50%{transform:translateY(-13px);opacity:0.1}}
+      @keyframes fd{0%,100%{transform:translateY(0);opacity:0.65}50%{transform:translateY(-19px);opacity:0.12}}
+      @keyframes fe{0%,100%{transform:translateY(0);opacity:0.55}50%{transform:translateY(-26px);opacity:0.08}}
+      @keyframes ff{0%,100%{transform:translateY(0);opacity:0.45}50%{transform:translateY(-11px);opacity:0.1}}
+      @keyframes dspin{0%,100%{transform:rotate(0deg);opacity:0.4}50%{transform:rotate(45deg);opacity:0.12}}
+      @keyframes dfloat{0%,100%{transform:translateY(0) rotate(0deg);opacity:0.35}50%{transform:translateY(-18px) rotate(180deg);opacity:0.08}}
       .w1{animation:w1 6s ease-in-out infinite}
       .w2{animation:w2 8s ease-in-out infinite}
       .w3{animation:w3 10s ease-in-out infinite}
       .w4{animation:w4 7s ease-in-out infinite}
       .w5{animation:w5 5s ease-in-out infinite}
-
-      .title{animation:title-pulse 3.5s ease-in-out infinite}
-      .subtitle{animation:sub-pulse 4.5s ease-in-out infinite}
-
-      .shimmer{animation:shimmer-move 3.5s linear infinite}
-      .scan{animation:scan-move 4s linear infinite}
-
-      .topline{animation:line-pulse 3s ease-in-out infinite}
-      .sep{animation:sep-pulse 5s ease-in-out infinite;transform-origin:600px 185px}
-      .halo{animation:halo-pulse 4s ease-in-out infinite;transform-origin:600px 115px}
-
-      .p1{animation:fp 4s ease-in-out infinite;--o1:0.7;--o2:0.15;--dy:-18px}
-      .p2{animation:fp 5.2s ease-in-out infinite;--o1:0.6;--o2:0.1;--dy:-22px}
-      .p3{animation:fp 3.6s ease-in-out infinite;--o1:0.5;--o2:0.1;--dy:-14px}
-      .p4{animation:fp 4.8s ease-in-out infinite;--o1:0.65;--o2:0.15;--dy:-20px}
-      .p5{animation:fp 6.1s ease-in-out infinite;--o1:0.55;--o2:0.1;--dy:-25px}
-      .p6{animation:fp 3.9s ease-in-out infinite;--o1:0.5;--o2:0.1;--dy:-12px}
-      .p7{animation:fp 5.5s ease-in-out infinite;--o1:0.45;--o2:0.1;--dy:-16px}
-      .p8{animation:fp 4.3s ease-in-out infinite;--o1:0.6;--o2:0.15;--dy:-20px}
-      .p9{animation:fp 7s ease-in-out infinite;--o1:0.4;--o2:0.05;--dy:-28px}
-      .p10{animation:fp 3.2s ease-in-out infinite;--o1:0.55;--o2:0.1;--dy:-13px}
-      .p11{animation:fp 5.8s ease-in-out infinite;--o1:0.45;--o2:0.1;--dy:-19px}
-      .p12{animation:fp 4.6s ease-in-out infinite;--o1:0.6;--o2:0.15;--dy:-21px}
-
-      .d1{animation:diamond-spin 6s ease-in-out infinite}
-      .d2{animation:geo-float 8s ease-in-out infinite}
-      .d3{animation:diamond-spin 5s ease-in-out infinite}
+      .shimmer{animation:shimmer 3.5s linear infinite}
+      .scan{animation:scan 4s linear infinite}
+      .title{animation:tpulse 3.5s ease-in-out infinite}
+      .sub{animation:spulse 4.5s ease-in-out infinite}
+      .tl{animation:lpulse 3s ease-in-out infinite}
+      .sep{animation:sepx 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .hal{animation:hpulse 4s ease-in-out infinite}
+      .p1{animation:fa 4s ease-in-out infinite}
+      .p2{animation:fb 5.2s ease-in-out infinite}
+      .p3{animation:fc 3.6s ease-in-out infinite}
+      .p4{animation:fd 4.8s ease-in-out infinite}
+      .p5{animation:fe 6.1s ease-in-out infinite}
+      .p6{animation:ff 3.9s ease-in-out infinite}
+      .p7{animation:fa 5.5s ease-in-out infinite;animation-delay:-2s}
+      .p8{animation:fb 4.3s ease-in-out infinite;animation-delay:-1s}
+      .p9{animation:fc 7s ease-in-out infinite;animation-delay:-3s}
+      .p10{animation:fd 3.2s ease-in-out infinite;animation-delay:-1.5s}
+      .p11{animation:fe 5.8s ease-in-out infinite;animation-delay:-2.5s}
+      .p12{animation:ff 4.6s ease-in-out infinite;animation-delay:-0.8s}
+      .d1{animation:dspin 6s ease-in-out infinite}
+      .d2{animation:dfloat 8s ease-in-out infinite}
+      .d3{animation:dspin 5s ease-in-out infinite;animation-delay:-2s}
+      .d4{animation:dfloat 7s ease-in-out infinite;animation-delay:-3s}
     </style>
   </defs>
-
-  <g clip-path="url(#banner-clip)">
-    <!-- Background -->
+  <g clip-path="url(#clip)">
     <rect width="1200" height="280" fill="url(#bg)"/>
-
-    <!-- Scan line effect -->
-    <rect class="scan" x="0" y="0" width="1200" height="40" fill="url(#scan)"/>
-
-    <!-- Wave layers 5 total -->
+    <rect class="scan" x="0" y="0" width="1200" height="50" fill="url(#scangrad)"/>
     <path class="w4" d="M0,175 C100,155 250,185 400,165 C550,145 700,175 850,158 C1000,140 1100,165 1200,150 L1200,280 L0,280 Z" fill="#3d0090" opacity="0.25"/>
     <path class="w1" d="M0,195 C150,158 300,215 450,178 C600,140 750,198 900,168 C1050,138 1150,178 1200,158 L1200,280 L0,280 Z" fill="#2d0070" opacity="0.4"/>
     <path class="w2" d="M0,215 C200,182 400,242 600,208 C800,172 1000,232 1200,202 L1200,280 L0,280 Z" fill="#1a0040" opacity="0.55"/>
     <path class="w3" d="M0,235 C250,218 500,248 750,228 C900,215 1050,235 1200,222 L1200,280 L0,280 Z" fill="#120030" opacity="0.7"/>
     <path class="w5" d="M0,252 C300,238 600,258 900,242 C1050,234 1150,248 1200,240 L1200,280 L0,280 Z" fill="#0a0010" opacity="0.85"/>
-
-    <!-- Top line -->
-    <line class="topline" x1="0" y1="3" x2="1200" y2="3" stroke="#c084fc" stroke-width="2"/>
-
-    <!-- Geometric decorations -->
-    <rect class="d1" x="75" y="35" width="10" height="10" fill="none" stroke="#fbbf24" stroke-width="1" transform="rotate(45 80 40)"/>
-    <rect class="d2" x="1100" y="30" width="8" height="8" fill="none" stroke="#c084fc" stroke-width="1" transform="rotate(45 1104 34)"/>
-    <rect class="d3" x="430" y="20" width="6" height="6" fill="none" stroke="#fbbf24" stroke-width="0.8" transform="rotate(45 433 23)"/>
-    <rect class="d1" x="760" y="25" width="7" height="7" fill="none" stroke="#c084fc" stroke-width="0.8" transform="rotate(45 763 28)"/>
-
-    <!-- Particles -->
-    <circle class="p1"  cx="80"  cy="55"  r="2.5" fill="#fbbf24"/>
-    <circle class="p2"  cx="175" cy="75"  r="1.8" fill="#c084fc"/>
-    <circle class="p3"  cx="290" cy="38"  r="1.2" fill="#fbbf24"/>
-    <circle class="p4"  cx="410" cy="65"  r="2"   fill="#c084fc"/>
-    <circle class="p5"  cx="500" cy="28"  r="1.5" fill="#fbbf24"/>
-    <circle class="p6"  cx="660" cy="55"  r="1"   fill="#c084fc"/>
-    <circle class="p7"  cx="740" cy="35"  r="1.8" fill="#fbbf24"/>
-    <circle class="p8"  cx="860" cy="60"  r="2"   fill="#c084fc"/>
-    <circle class="p9"  cx="950" cy="30"  r="1.2" fill="#fbbf24"/>
+    <line class="tl" x1="0" y1="3" x2="1200" y2="3" stroke="#c084fc" stroke-width="2"/>
+    <rect class="d1" x="75" y="32" width="10" height="10" fill="none" stroke="#fbbf24" stroke-width="1" transform="rotate(45,80,37)"/>
+    <rect class="d2" x="1100" y="28" width="8" height="8" fill="none" stroke="#c084fc" stroke-width="1" transform="rotate(45,1104,32)"/>
+    <rect class="d3" x="430" y="18" width="6" height="6" fill="none" stroke="#fbbf24" stroke-width="0.8" transform="rotate(45,433,21)"/>
+    <rect class="d4" x="760" y="23" width="7" height="7" fill="none" stroke="#c084fc" stroke-width="0.8" transform="rotate(45,763,26)"/>
+    <circle class="p1"  cx="80"   cy="55" r="2.5" fill="#fbbf24"/>
+    <circle class="p2"  cx="175"  cy="75" r="1.8" fill="#c084fc"/>
+    <circle class="p3"  cx="290"  cy="38" r="1.2" fill="#fbbf24"/>
+    <circle class="p4"  cx="410"  cy="65" r="2"   fill="#c084fc"/>
+    <circle class="p5"  cx="500"  cy="28" r="1.5" fill="#fbbf24"/>
+    <circle class="p6"  cx="660"  cy="55" r="1"   fill="#c084fc"/>
+    <circle class="p7"  cx="740"  cy="35" r="1.8" fill="#fbbf24"/>
+    <circle class="p8"  cx="860"  cy="60" r="2"   fill="#c084fc"/>
+    <circle class="p9"  cx="950"  cy="30" r="1.2" fill="#fbbf24"/>
     <circle class="p10" cx="1040" cy="50" r="2.5" fill="#c084fc"/>
     <circle class="p11" cx="1100" cy="38" r="1.5" fill="#fbbf24"/>
     <circle class="p12" cx="1160" cy="68" r="1.2" fill="#c084fc"/>
-
-    <!-- Halo behind title -->
-    <ellipse class="halo" cx="600" cy="115" rx="300" ry="45" fill="#4a00a0" filter="url(#soft-glow)"/>
-
-    <!-- Title -->
-    <text class="title" x="600" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="64" font-weight="700"
-          fill="#fbbf24" text-anchor="middle" filter="url(#glow-gold)">hydra-algaib</text>
-
-    <!-- Shimmer overlay on title -->
+    <ellipse class="hal" cx="600" cy="112" rx="310" ry="48" fill="#5500cc" filter="url(#halo)"/>
+    <text class="title" x="600" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="64" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#gg)">hydra-algaib</text>
     <rect class="shimmer" x="-1200" y="78" width="1200" height="62" fill="url(#shimmer)"/>
-
-    <!-- Subtitle -->
-    <text class="subtitle" x="600" y="165" font-family="'Segoe UI',Arial,sans-serif" font-size="17"
-          fill="#c084fc" text-anchor="middle" filter="url(#glow-purple)">Full Stack Developer · AI &amp; Automation · Freelance · Spain</text>
-
-    <!-- Separator -->
+    <text class="sub" x="600" y="165" font-family="'Segoe UI',Arial,sans-serif" font-size="17" fill="#c084fc" text-anchor="middle" filter="url(#gp)">Full Stack Developer · AI &amp; Automation · Freelance · Spain</text>
     <line class="sep" x1="340" y1="185" x2="860" y2="185" stroke="#fbbf24" stroke-width="1.2"/>
   </g>
 </svg>
