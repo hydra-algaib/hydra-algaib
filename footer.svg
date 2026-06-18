@@ -1,35 +1,83 @@
-<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0a0010"/>
-      <stop offset="50%" stop-color="#2d0070"/>
+    <linearGradient id="fgr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0010"/>
+      <stop offset="30%"  stop-color="#2d0070"/>
+      <stop offset="70%"  stop-color="#1a0040"/>
       <stop offset="100%" stop-color="#0a0010"/>
     </linearGradient>
+    <linearGradient id="fgold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0010" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#fbbf24" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#c084fc" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ftg" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fsoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
     <style>
-      @keyframes wave1 { 0%,100% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(-20px) translateY(8px); } }
-      @keyframes wave2 { 0%,100% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(15px) translateY(-5px); } }
-      @keyframes wave3 { 0%,100% { transform: translateX(0px) translateY(0px); } 50% { transform: translateX(-10px) translateY(3px); } }
-      @keyframes float1 { 0%,100% { transform: translateY(0px); opacity: 0.6; } 50% { transform: translateY(-10px); opacity: 0.1; } }
-      @keyframes float2 { 0%,100% { transform: translateY(0px); opacity: 0.5; } 50% { transform: translateY(-12px); opacity: 0.1; } }
-      @keyframes line-pulse { 0%,100% { opacity: 0.3; } 50% { opacity: 0.7; } }
-
-      .fw1 { animation: wave1 7s ease-in-out infinite; }
-      .fw2 { animation: wave2 5s ease-in-out infinite; }
-      .fw3 { animation: wave3 9s ease-in-out infinite; }
-      .fp1 { animation: float1 4s ease-in-out infinite; }
-      .fp2 { animation: float2 5s ease-in-out infinite; }
-      .fp3 { animation: float1 3.5s ease-in-out infinite; }
-      .fline { animation: line-pulse 4s ease-in-out infinite; }
+      @keyframes fw1{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(-18px) translateY(7px)}}
+      @keyframes fw2{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(14px) translateY(-5px)}}
+      @keyframes fw3{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(-8px) translateY(3px)}}
+      @keyframes fw4{0%,100%{transform:translateX(0) translateY(0)}50%{transform:translateX(10px) translateY(-4px)}}
+      @keyframes ffloat{0%,100%{transform:translateY(0);opacity:0.6}50%{transform:translateY(-14px);opacity:0.05}}
+      @keyframes ffloat2{0%,100%{transform:translateY(0);opacity:0.4}50%{transform:translateY(-18px);opacity:0.05}}
+      @keyframes fline{0%,100%{opacity:0.25}50%{opacity:0.6}}
+      @keyframes ftxt{0%,100%{opacity:0.6}50%{opacity:1}}
+      @keyframes fglow{0%,100%{opacity:0.05}50%{opacity:0.12}}
+      .fw1{animation:fw1 7s ease-in-out infinite}
+      .fw2{animation:fw2 5s ease-in-out infinite}
+      .fw3{animation:fw3 9s ease-in-out infinite}
+      .fw4{animation:fw4 6s ease-in-out infinite}
+      .fp1{animation:ffloat  4s ease-in-out infinite}
+      .fp2{animation:ffloat2 5.5s ease-in-out infinite}
+      .fp3{animation:ffloat  3.5s ease-in-out infinite;animation-delay:-2s}
+      .fp4{animation:ffloat2 6s ease-in-out infinite;animation-delay:-1s}
+      .fp5{animation:ffloat  4.5s ease-in-out infinite;animation-delay:-3s}
+      .fline{animation:fline 4s ease-in-out infinite}
+      .ftxt{animation:ftxt 3s ease-in-out infinite}
+      .fglow{animation:fglow 5s ease-in-out infinite}
     </style>
   </defs>
 
-  <path class="fw1" d="M0,40 C200,10 400,60 600,30 C800,0 1000,50 1200,20 L1200,120 L0,120 Z" fill="#1a0040" opacity="0.5"/>
-  <path class="fw2" d="M0,55 C250,25 500,70 750,40 C900,20 1100,55 1200,35 L1200,120 L0,120 Z" fill="url(#fg)"/>
-  <path class="fw3" d="M0,75 C300,55 600,80 900,60 C1050,50 1150,70 1200,60 L1200,120 L0,120 Z" fill="#0a0010"/>
+  <!-- Glow blobs -->
+  <circle class="fglow" cx="250" cy="80" r="100" fill="#c084fc" filter="url(#fsoft)"/>
+  <circle class="fglow" cx="650" cy="80" r="100" fill="#fbbf24" filter="url(#fsoft)"/>
 
-  <line class="fline" x1="0" y1="2" x2="1200" y2="2" stroke="#c084fc" stroke-width="1.5"/>
+  <!-- Top accent line -->
+  <line class="fline" x1="0" y1="2" x2="900" y2="2" stroke="url(#fgold)" stroke-width="1.5"/>
 
-  <circle class="fp1" cx="150" cy="25" r="1.5" fill="#fbbf24"/>
-  <circle class="fp2" cx="600" cy="20" r="1" fill="#c084fc"/>
-  <circle class="fp3" cx="1050" cy="28" r="1.5" fill="#fbbf24"/>
+  <!-- Wave layers -->
+  <path class="fw1" d="M0,50 C150,20 300,65 450,35 C600,5 750,55 900,25 L900,140 L0,140 Z"
+        fill="#1a0040" opacity="0.45"/>
+  <path class="fw2" d="M0,62 C180,35 380,75 560,48 C700,28 820,60 900,42 L900,140 L0,140 Z"
+        fill="url(#fgr)" opacity="0.8"/>
+  <path class="fw3" d="M0,78 C220,60 460,88 680,68 C790,58 860,75 900,68 L900,140 L0,140 Z"
+        fill="#0d0025" opacity="0.9"/>
+  <path class="fw4" d="M0,95 C300,80 600,100 900,88 L900,140 L0,140 Z"
+        fill="#0a0010"/>
+
+  <!-- Particles -->
+  <circle class="fp1" cx="80"  cy="38" r="1.5" fill="#fbbf24"/>
+  <circle class="fp2" cx="220" cy="28" r="1"   fill="#c084fc"/>
+  <circle class="fp3" cx="450" cy="22" r="2"   fill="#fbbf24"/>
+  <circle class="fp4" cx="680" cy="30" r="1"   fill="#c084fc"/>
+  <circle class="fp5" cx="820" cy="35" r="1.5" fill="#fbbf24"/>
+
+  <!-- Signature text -->
+  <text class="ftxt" x="450" y="88"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#fbbf24" text-anchor="middle" filter="url(#ftg)" letter-spacing="2">hydra-algaib</text>
+
+  <text x="450" y="108"
+        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#c084fc" text-anchor="middle" letter-spacing="1" opacity="0.7">Full Stack · AI · Freelance · Spain</text>
+
+  <text x="450" y="126"
+        font-family="'Courier New',Courier,monospace" font-size="9"
+        fill="#2d0070" text-anchor="middle" opacity="0.6">// built in the dark, shipped to the world</text>
 </svg>
