@@ -44,6 +44,18 @@
       .ws6{animation:wscan 5s linear infinite;animation-delay:-4.1s;opacity:0.06}
       .wgl{animation:wgl 4s ease-in-out infinite}
       .wgl2{animation:wgl 4s ease-in-out infinite;animation-delay:-2s}
+      @keyframes wpb1{0%{width:0}100%{width:232px}}
+      @keyframes wpb2{0%{width:0}100%{width:194px}}
+      @keyframes wpb3{0%{width:0}100%{width:212px}}
+      @keyframes wpb4{0%{width:0}100%{width:245px}}
+      @keyframes wpb5{0%{width:0}100%{width:220px}}
+      @keyframes wpb6{0%{width:0}100%{width:202px}}
+      .wpb1{animation:wpb1 1.6s ease-out forwards}
+      .wpb2{animation:wpb2 1.6s ease-out 0.1s forwards;width:0}
+      .wpb3{animation:wpb3 1.6s ease-out 0.2s forwards;width:0}
+      .wpb4{animation:wpb4 1.6s ease-out 0.3s forwards;width:0}
+      .wpb5{animation:wpb5 1.6s ease-out 0.4s forwards;width:0}
+      .wpb6{animation:wpb6 1.6s ease-out 0.5s forwards;width:0}
     </style>
   </defs>
 
@@ -65,7 +77,8 @@
   <text x="22" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Multi-turn conversations with tool</text>
   <text x="22" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">use, context memory, webhook</text>
   <text x="22" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">integration &amp; admin dashboards.</text>
-  <line x1="22" y1="142" x2="270" y2="142" stroke="#2d0070" stroke-width="1"/>
+  <rect x="22" y="139" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb1" x="22" y="139" height="3" rx="1.5" fill="#fbbf24" opacity="0.85"/>
   <text x="22" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Claude · Twilio · Express · JSON</text>
 
   <!-- Card 2: SaaS Tools -->
@@ -78,7 +91,8 @@
   <text x="321" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Role-based access, billing-ready</text>
   <text x="321" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">architecture, configurable themes</text>
   <text x="321" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">and white-label deployments.</text>
-  <line x1="321" y1="142" x2="579" y2="142" stroke="#2d0070" stroke-width="1"/>
+  <rect x="321" y="139" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb2" x="321" y="139" height="3" rx="1.5" fill="#c084fc" opacity="0.85"/>
   <text x="321" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Node.js · JWT · MongoDB · React</text>
 
   <!-- Card 3: Automation -->
@@ -91,7 +105,8 @@
   <text x="620" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Event-driven workflows, scheduled</text>
   <text x="620" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">tasks, API integrations and</text>
   <text x="620" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">real-time notification systems.</text>
-  <line x1="620" y1="142" x2="878" y2="142" stroke="#2d0070" stroke-width="1"/>
+  <rect x="620" y="139" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb3" x="620" y="139" height="3" rx="1.5" fill="#fbbf24" opacity="0.85"/>
   <text x="620" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Cron · Webhooks · REST · Events</text>
 
   <!-- ===== ROW 2 ===== -->
@@ -106,7 +121,8 @@
   <text x="22" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">End-to-end development from DB</text>
   <text x="22" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">schema to UI, zero-to-production</text>
   <text x="22" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">deployment included.</text>
-  <line x1="22" y1="338" x2="270" y2="338" stroke="#2d0070" stroke-width="1"/>
+  <rect x="22" y="335" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb4" x="22" y="335" height="3" rx="1.5" fill="#c084fc" opacity="0.85"/>
   <text x="22" y="354" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">React · Express · SQLite · Docker</text>
 
   <!-- Card 5: Auth & Security -->
@@ -119,7 +135,8 @@
   <text x="321" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Token-based auth, refresh flows,</text>
   <text x="321" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">role middleware, signed cookies</text>
   <text x="321" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">and secure API design patterns.</text>
-  <line x1="321" y1="338" x2="579" y2="338" stroke="#2d0070" stroke-width="1"/>
+  <rect x="321" y="335" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb5" x="321" y="335" height="3" rx="1.5" fill="#fbbf24" opacity="0.85"/>
   <text x="321" y="354" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">JWT · HMAC · bcrypt · Middleware</text>
 
   <!-- Card 6: PWA & Mobile-First -->
@@ -132,6 +149,7 @@
   <text x="620" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Service workers, offline caching,</text>
   <text x="620" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">push notifications, installable on</text>
   <text x="620" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">any device with no app store.</text>
-  <line x1="620" y1="338" x2="878" y2="338" stroke="#2d0070" stroke-width="1"/>
+  <rect x="620" y="335" width="256" height="3" rx="1.5" fill="#1a0040"/>
+  <rect class="wpb6" x="620" y="335" height="3" rx="1.5" fill="#c084fc" opacity="0.85"/>
   <text x="620" y="354" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Service Workers · Cache · i18n</text>
 </svg>
