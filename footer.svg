@@ -61,6 +61,8 @@
       .fscan{animation:fscan 7s linear infinite;opacity:0.04}
       .fshimmer{animation:fshimmer 2.8s linear infinite}
       .fdate{animation:fdate 4s ease-in-out infinite}
+      @keyframes fspark{0%,100%{opacity:0.4;transform:scale(1) rotate(0deg)}50%{opacity:1;transform:scale(1.4) rotate(15deg)}}
+      .fspark{animation:fspark 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     </style>
   </defs>
 
@@ -109,7 +111,10 @@
         font-family="'Segoe UI',Arial,sans-serif" font-size="9"
         fill="#fbbf24" text-anchor="middle" letter-spacing="1" opacity="0.5">Jun 2026 · profile launch 🚀</text>
 
+  <!-- Built-with credit — visible on dark bg -->
+  <text class="fspark" x="380" y="133" font-family="Arial" font-size="9" fill="#fbbf24" text-anchor="middle">✦</text>
   <text x="450" y="133"
-        font-family="'Courier New',Courier,monospace" font-size="8"
-        fill="#2d0070" text-anchor="middle" opacity="0.55">// built in the dark, shipped to the world</text>
+        font-family="'Segoe UI',Arial,sans-serif" font-size="8"
+        fill="#4a2080" text-anchor="middle">built with Claude Code · anthropic · Jun 2026</text>
+  <text class="fspark" x="520" y="133" font-family="Arial" font-size="9" fill="#c084fc" text-anchor="middle" style="animation-delay:-1s">✦</text>
 </svg>
