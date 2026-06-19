@@ -36,6 +36,8 @@
       @keyframes ahead4{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.03)}}
       @keyframes ahead5{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.02)}}
       @keyframes aglow{0%,100%{opacity:0.06}50%{opacity:0.18}}
+      @keyframes ablink{0%,88%,100%{transform:scaleY(1)}93%{transform:scaleY(0.05)}97%{transform:scaleY(1)}}
+      .ablink{animation:ablink 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       @keyframes aorbs{0%,100%{r:5;opacity:0.9}50%{r:6.5;opacity:1}}
       @keyframes aorbs2{0%,100%{r:3;opacity:0.8}50%{r:4;opacity:1}}
       @keyframes aorbs3{0%,100%{r:4;opacity:0.7}50%{r:5;opacity:0.9}}
@@ -118,14 +120,16 @@
   <circle cx="200" cy="200" r="44" fill="url(#acore)" filter="url(#asoft)"/>
 
   <!-- Eye -->
-  <g class="apulse">
-    <circle cx="200" cy="200" r="30" fill="#0a0010" stroke="#fbbf24" stroke-width="1.8" opacity="0.95"/>
-    <ellipse cx="200" cy="200" rx="14" ry="10" fill="none" stroke="#fbbf24" stroke-width="1.2" opacity="0.9"/>
+  <g class="ablink">
+    <g class="apulse">
+      <circle cx="200" cy="200" r="30" fill="#0a0010" stroke="#fbbf24" stroke-width="1.8" opacity="0.95"/>
+      <ellipse cx="200" cy="200" rx="14" ry="10" fill="none" stroke="#fbbf24" stroke-width="1.2" opacity="0.9"/>
+    </g>
+    <g class="aeye">
+      <circle cx="200" cy="200" r="4" fill="#fbbf24" opacity="0.95" filter="url(#agold)"/>
+    </g>
+    <circle cx="200" cy="200" r="1.5" fill="#0a0010"/>
   </g>
-  <g class="aeye">
-    <circle cx="200" cy="200" r="4" fill="#fbbf24" opacity="0.95" filter="url(#agold)"/>
-  </g>
-  <circle cx="200" cy="200" r="1.5" fill="#0a0010"/>
 
   <!-- Corner accents -->
   <circle cx="46"  cy="46"  r="2.5" fill="#c084fc" opacity="0.25"/>
