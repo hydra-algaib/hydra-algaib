@@ -25,7 +25,7 @@
       @keyframes anb2{0%,100%{opacity:0.35;stroke:#c084fc}50%{opacity:0.9;stroke:#fbbf24}}
       @keyframes ancnt{0%,100%{opacity:0.8}50%{opacity:1}}
       .anl{animation:anpulse 3s ease-in-out infinite}
-      .and{animation:andot 1.5s ease-in-out infinite}
+      .and{animation:andot 2.5s ease-in-out infinite}
       .anring{animation:anring 2s ease-out infinite}
       .anb1{animation:anb1 2.5s ease-in-out infinite}
       .anb2{animation:anb2 3s ease-in-out infinite}

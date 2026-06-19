@@ -32,7 +32,7 @@
       @keyframes aping{0%{r:6;opacity:0.7}100%{r:22;opacity:0}}
       .aline{animation:aline 3s ease-in-out infinite}
       .adot{animation:adot 2s ease-in-out infinite}
-      .aspike{animation:aspike 1.5s ease-in-out infinite}
+      .aspike{animation:aspike 2.5s ease-in-out infinite}
       .ascan{animation:ascan 8s linear infinite;opacity:0.06}
       .agl{animation:agl 4s ease-in-out infinite}
       .aping{animation:aping 2s ease-out infinite}
