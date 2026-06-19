@@ -102,7 +102,7 @@
   </g>
   <text x="75" y="110" font-family="Arial" font-size="13" text-anchor="middle">🌱</text>
   <text class="tt" x="75" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)">First Commit</text>
-  <text x="75" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">The journey starts</text>
+  <text class="tt" x="75" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-1.5s">The journey starts</text>
   <!-- Progress bar -->
   <rect x="22" y="155" width="116" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp1" x="22" y="155" height="4" rx="2" fill="url(#tpbar)"/>
@@ -125,7 +125,7 @@
   </g>
   <text x="225" y="110" font-family="Arial" font-size="13" text-anchor="middle">⚡</text>
   <text class="tt" x="225" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)" style="animation-delay:-0.5s">Full Stack</text>
-  <text x="225" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Front to back</text>
+  <text class="tt" x="225" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-2s">Front to back</text>
   <rect x="172" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp2" x="172" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="225" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#6a5a8a" text-anchor="middle">JS · TS · Node · React</text>
@@ -147,7 +147,7 @@
   </g>
   <text x="375" y="110" font-family="Arial" font-size="13" text-anchor="middle">🤖</text>
   <text class="tt" x="375" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)" style="animation-delay:-1s">AI Builder</text>
-  <text x="375" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Shipped AI products</text>
+  <text class="tt" x="375" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-2.5s">Shipped AI products</text>
   <rect x="322" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp3" x="322" y="155" height="4" rx="2" fill="url(#tpbar)"/>
   <text x="375" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#6a5a8a" text-anchor="middle">Claude API · Tool use</text>
@@ -169,7 +169,7 @@
   </g>
   <text x="525" y="110" font-family="Arial" font-size="13" text-anchor="middle">🏢</text>
   <text class="tt" x="525" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)" style="animation-delay:-1.5s">SaaS Maker</text>
-  <text x="525" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Built for business</text>
+  <text class="tt" x="525" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-1s">Built for business</text>
   <rect x="472" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp4" x="472" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="525" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#6a5a8a" text-anchor="middle">Admin · Auth · Multi-tenant</text>
@@ -191,7 +191,7 @@
   </g>
   <text x="675" y="110" font-family="Arial" font-size="13" text-anchor="middle">⚙️</text>
   <text class="tt" x="675" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)" style="animation-delay:-2s">Automation Pro</text>
-  <text x="675" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Systems that work</text>
+  <text class="tt" x="675" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-0.5s">Systems that work</text>
   <rect x="622" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp5" x="622" y="155" height="4" rx="2" fill="url(#tpbar)"/>
   <text x="675" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#6a5a8a" text-anchor="middle">Cron · Webhooks · Events</text>
@@ -213,7 +213,7 @@
   </g>
   <text x="825" y="110" font-family="Arial" font-size="13" text-anchor="middle">🌐</text>
   <text class="tt" x="825" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle" filter="url(#tg)" style="animation-delay:-2.5s">Open Source</text>
-  <text x="825" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle">Building in public</text>
+  <text class="tt" x="825" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="middle" style="animation-delay:-3s">Building in public</text>
   <rect x="772" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp6" x="772" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="825" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#6a5a8a" text-anchor="middle">GitHub · hydra-algaib</text>
