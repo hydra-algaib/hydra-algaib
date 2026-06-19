@@ -80,7 +80,9 @@
   <rect class="ptag" x="154" y="158" width="62" height="18" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
   <text x="185" y="171" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">WhatsApp</text>
 
-  <text x="148" y="198" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="600">⭐ Featured · SaaS-ready</text>
+  <circle cx="26" cy="196" r="4" fill="#22c55e" opacity="0.85"/>
+  <text x="35" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#555">last push Jun 18 2026</text>
+  <text x="248" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="end" font-weight="600">★ Featured</text>
 
   <!-- Card 2: GymLog -->
   <rect x="314" y="12" width="272" height="196" rx="10" fill="url(#pcard)"/>
@@ -111,7 +113,9 @@
   <rect class="ptag" x="446" y="158" width="36" height="18" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
   <text x="464" y="171" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">i18n</text>
 
-  <text x="450" y="198" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="600">📱 Mobile-first · Zero backend</text>
+  <circle cx="328" cy="196" r="4" fill="#22c55e" opacity="0.85"/>
+  <text x="337" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#555">last push Jun 18 2026</text>
+  <text x="550" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="end" font-weight="600">📱 Mobile-first</text>
 
   <!-- Card 3: Coming Soon — more animated detail -->
   <rect x="616" y="12" width="272" height="196" rx="10" fill="url(#pcard3)"/>
@@ -126,16 +130,16 @@
   <text class="plock" x="752" y="72" font-family="Arial" font-size="34" text-anchor="middle">🔮</text>
 
   <text class="pqs" x="752" y="100" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="700"
-        fill="#4a0090" text-anchor="middle" filter="url(#pg)">Next Project</text>
+        fill="#c084fc" text-anchor="middle" filter="url(#pg)">Next Project</text>
 
-  <text x="752" y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Currently in stealth mode.</text>
-  <text x="752" y="138" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Something new is coming.</text>
+  <text x="752" y="122" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#7a6090" text-anchor="middle">Currently in stealth mode.</text>
+  <text x="752" y="138" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#7a6090" text-anchor="middle">Something new is coming.</text>
 
-  <line x1="648" y1="155" x2="856" y2="155" stroke="#1a0040" stroke-width="0.8"/>
+  <line x1="648" y1="155" x2="856" y2="155" stroke="#2d0070" stroke-width="0.8"/>
 
-  <!-- Tech hints — dimly shown -->
-  <text x="680" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#2a0060">AI  ·  real-time  ·  SaaS</text>
+  <!-- Tech hints -->
+  <text x="752" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#4a2080" text-anchor="middle">AI  ·  real-time  ·  SaaS</text>
 
-  <text x="752" y="186" font-family="'Courier New',Courier,monospace" font-size="10"
-        fill="#2d0070" text-anchor="middle">// coming soon · follow for updates</text>
+  <text x="752" y="188" font-family="'Courier New',Courier,monospace" font-size="10"
+        fill="#5a30a0" text-anchor="middle">// follow for updates</text>
 </svg>
