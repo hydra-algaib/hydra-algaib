@@ -101,7 +101,7 @@
   <line x1="30" y1="176" x2="420" y2="176" stroke="#2d0070" stroke-width="0.8"/>
   <!-- Active now badge -->
   <circle class="stactive" cx="34" cy="186" r="4" fill="#22c55e"/>
-  <text x="44" y="190" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#22c55e" font-weight="600">Active now</text>
+  <text class="stactive" x="44" y="190" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#22c55e" font-weight="600" style="animation-delay:-0.5s">Active now</text>
   <text x="420" y="190" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="end">private repos · approx.</text>
 
   <!-- Card 2: Activity Heatmap -->

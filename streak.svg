@@ -82,7 +82,7 @@
 
   <text class="sn" x="346" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" style="animation-delay:-1.5s">Jun 12 → Jun 18</text>
   <text class="sn" x="542" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end" style="animation-delay:-0.5s">launch sprint</text>
-  <text x="450" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle">Profile build week 🚀</text>
+  <text class="sn" x="450" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle" style="animation-delay:-2s">Profile build week 🚀</text>
 
   <!-- Card 3: Longest Streak -->
   <rect x="616" y="12" width="272" height="156" rx="12" fill="url(#scard)"/>
@@ -101,5 +101,5 @@
 
   <text class="sn" x="648" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-2.2s">Jun 2026</text>
   <text class="sn" x="844" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end" style="animation-delay:-1.2s">personal best</text>
-  <text x="752" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle">Profile launch week</text>
+  <text class="sn" x="752" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle" style="animation-delay:-1s">Profile launch week</text>
 </svg>
