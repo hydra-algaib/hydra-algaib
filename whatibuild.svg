@@ -73,7 +73,7 @@
   <rect class="wb1" x="12" y="12" width="278" height="160" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
   <text class="wi" x="38" y="58" font-family="Arial" font-size="26">🤖</text>
   <text class="wl" x="75" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">AI CHATBOTS</text>
-  <text x="75" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Claude API · WhatsApp</text>
+  <text class="wl" x="75" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-0.5s">Claude API · WhatsApp</text>
   <text x="22" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Multi-turn conversations with tool</text>
   <text x="22" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">use, context memory, webhook</text>
   <text x="22" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">integration &amp; admin dashboards.</text>
@@ -87,7 +87,7 @@
   <rect class="wb2" x="311" y="12" width="278" height="160" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
   <text class="wi" x="337" y="58" font-family="Arial" font-size="26">🏢</text>
   <text class="wl" x="374" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">SaaS TOOLS</text>
-  <text x="374" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Admin panels · Multi-tenant</text>
+  <text class="wl" x="374" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-1s">Admin panels · Multi-tenant</text>
   <text x="321" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Role-based access, billing-ready</text>
   <text x="321" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">architecture, configurable themes</text>
   <text x="321" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">and white-label deployments.</text>
@@ -101,7 +101,7 @@
   <rect class="wb3" x="610" y="12" width="278" height="160" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
   <text class="wi" x="636" y="58" font-family="Arial" font-size="26">⚙️</text>
   <text class="wl" x="673" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">AUTOMATION</text>
-  <text x="673" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Webhooks · Cron jobs</text>
+  <text class="wl" x="673" y="65" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-1.5s">Webhooks · Cron jobs</text>
   <text x="620" y="93"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Event-driven workflows, scheduled</text>
   <text x="620" y="109" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">tasks, API integrations and</text>
   <text x="620" y="125" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">real-time notification systems.</text>
@@ -117,7 +117,7 @@
   <rect class="wb4" x="12" y="208" width="278" height="160" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
   <text class="wi" x="38" y="254" font-family="Arial" font-size="26">🌐</text>
   <text class="wl" x="75" y="244" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">FULL STACK APPS</text>
-  <text x="75" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">REST APIs · SPA · SSR</text>
+  <text class="wl" x="75" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-2s">REST APIs · SPA · SSR</text>
   <text x="22" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">End-to-end development from DB</text>
   <text x="22" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">schema to UI, zero-to-production</text>
   <text x="22" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">deployment included.</text>
@@ -131,7 +131,7 @@
   <rect class="wb5" x="311" y="208" width="278" height="160" rx="10" fill="none" stroke="#c084fc" stroke-width="1.5"/>
   <text class="wi" x="337" y="254" font-family="Arial" font-size="26">🔐</text>
   <text class="wl" x="374" y="244" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">AUTH &amp; SECURITY</text>
-  <text x="374" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">JWT · Sessions · HMAC</text>
+  <text class="wl" x="374" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-2.5s">JWT · Sessions · HMAC</text>
   <text x="321" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Token-based auth, refresh flows,</text>
   <text x="321" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">role middleware, signed cookies</text>
   <text x="321" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">and secure API design patterns.</text>
@@ -145,7 +145,7 @@
   <rect class="wb6" x="610" y="208" width="278" height="160" rx="10" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
   <text class="wi" x="636" y="254" font-family="Arial" font-size="26">📱</text>
   <text class="wl" x="673" y="244" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#fbbf24" filter="url(#wg)">PWA &amp; MOBILE-FIRST</text>
-  <text x="673" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Offline · Installable · Responsive</text>
+  <text class="wl" x="673" y="261" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-1.2s">Offline · Installable · Responsive</text>
   <text x="620" y="289"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">Service workers, offline caching,</text>
   <text x="620" y="305" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">push notifications, installable on</text>
   <text x="620" y="321" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cccccc">any device with no app store.</text>
