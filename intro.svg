@@ -21,11 +21,11 @@
       @keyframes ip3{0%,100%{transform:translate(0,0);opacity:0.5}33%{transform:translate(4px,-10px);opacity:0.15}66%{transform:translate(-3px,-18px);opacity:0.1}}
       @keyframes igl{0%,100%{opacity:0.06}50%{opacity:0.14}}
       @keyframes iborder{0%,100%{stroke:#2d0070;opacity:0.5}50%{stroke:#fbbf24;opacity:0.9}}
-      @keyframes iuline{0%,100%{opacity:0.3;width:60px}50%{opacity:0.9;width:200px}}
+      @keyframes iuline{0%,100%{opacity:0.3;transform:scaleX(0.3)}50%{opacity:0.9;transform:scaleX(1)}}
       .it{animation:ipulse 4s ease-in-out infinite}
       .ib{animation:ibar 3s ease-in-out infinite}
       .iborder{animation:iborder 4s ease-in-out infinite}
-      .iuline{animation:iuline 4s ease-in-out infinite}
+      .iuline{animation:iuline 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       .iscan{animation:iscan 6s linear infinite;opacity:0.05}
       .ip1{animation:ip1 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       .ip2{animation:ip2 7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
@@ -60,7 +60,7 @@
   <circle class="ip1" cx="840" cy="35" r="1.2" fill="#c084fc" style="animation-delay:-1s"/>
 
   <!-- Animated underline under main text -->
-  <rect class="iuline" x="350" y="44" height="2" rx="1" fill="#fbbf24"/>
+  <rect class="iuline" x="350" y="44" width="200" height="2" rx="1" fill="#fbbf24"/>
 
   <!-- Main bio text -->
   <text class="it" x="450" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="600"
