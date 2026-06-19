@@ -96,9 +96,9 @@
         font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800"
         fill="#fbbf24" text-anchor="middle" filter="url(#cg)">Open to freelance projects</text>
 
-  <text x="450" y="94"
+  <text class="ctitle" x="450" y="94"
         font-family="'Segoe UI',Arial,sans-serif" font-size="14"
-        fill="#c084fc" text-anchor="middle">Disponible para proyectos freelance · Spain 🇪🇸</text>
+        fill="#c084fc" text-anchor="middle" style="animation-delay:-1.5s">Disponible para proyectos freelance · Spain 🇪🇸</text>
 
   <!-- GitHub link pill with shimmer -->
   <rect x="330" y="118" width="240" height="36" rx="18" fill="url(#cpill)" stroke="#fbbf24" stroke-width="1.2"/>
