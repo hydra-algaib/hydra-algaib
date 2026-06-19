@@ -110,8 +110,8 @@
   <rect class="cbadge" x="718" y="58" width="148" height="64" rx="10" fill="#0d0025" stroke="#c084fc" stroke-width="1"/>
   <text x="792" y="82"  font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#c084fc" text-anchor="middle" font-weight="600">💼 Freelance</text>
   <line x1="730" y1="90" x2="854" y2="90" stroke="#2d0070" stroke-width="0.8"/>
-  <text x="792" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8a7aaa" text-anchor="middle">Remote · Full Stack</text>
-  <text x="792" y="118" font-family="'Segoe UI',Arial,sans-serif" font-size="9"  fill="#6a5a8a" text-anchor="middle">Jun 2026 · open</text>
+  <text class="ctitle" x="792" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8a7aaa" text-anchor="middle" style="animation-delay:-1s">Remote · Full Stack</text>
+  <text class="ctitle" x="792" y="118" font-family="'Segoe UI',Arial,sans-serif" font-size="9"  fill="#6a5a8a" text-anchor="middle" style="animation-delay:-2s">Jun 2026 · open</text>
 
   <!-- Blinking cursor after title -->
   <text class="cblink" x="694" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#fbbf24">|</text>
