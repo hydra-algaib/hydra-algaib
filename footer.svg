@@ -115,6 +115,6 @@
   <text class="fspark" x="380" y="133" font-family="Arial" font-size="9" fill="#fbbf24" text-anchor="middle">✦</text>
   <text x="450" y="133"
         font-family="'Segoe UI',Arial,sans-serif" font-size="8"
-        fill="#4a2080" text-anchor="middle">built with Claude Code · anthropic · Jun 2026</text>
+        fill="#7a5aaa" text-anchor="middle">built with Claude Code · anthropic · Jun 2026</text>
   <text class="fspark" x="520" y="133" font-family="Arial" font-size="9" fill="#c084fc" text-anchor="middle" style="animation-delay:-1s">✦</text>
 </svg>
