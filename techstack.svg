@@ -166,22 +166,23 @@
   <rect class="tslearn" x="26"  y="344" width="120" height="52" rx="6" fill="none" stroke="#dea584" stroke-width="1.5" stroke-dasharray="5 3"/>
   <text x="86"  y="361" font-family="Arial" font-size="16" text-anchor="middle">🦀</text>
   <text x="86"  y="376" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#dea584" text-anchor="middle">Rust</text>
-  <text x="86"  y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#7a5040" text-anchor="middle">systems perf</text>
+  <text x="86"  y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#a07060" text-anchor="middle">systems perf</text>
 
   <rect class="tsh" x="158" y="344" width="120" height="52" rx="6" fill="#100022"/>
   <rect class="tslearn" x="158" y="344" width="120" height="52" rx="6" fill="none" stroke="#00acd7" stroke-width="1.5" stroke-dasharray="5 3" style="animation-delay:-0.7s"/>
   <text x="218" y="361" font-family="Arial" font-size="16" text-anchor="middle">🐹</text>
   <text x="218" y="376" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#00acd7" text-anchor="middle">Go</text>
-  <text x="218" y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#005a75" text-anchor="middle">high performance</text>
+  <text x="218" y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#3a90b0" text-anchor="middle">high performance</text>
 
   <rect class="tsh" x="290" y="344" width="120" height="52" rx="6" fill="#100022"/>
   <rect class="tslearn" x="290" y="344" width="120" height="52" rx="6" fill="none" stroke="#326ce5" stroke-width="1.5" stroke-dasharray="5 3" style="animation-delay:-1.4s"/>
   <text x="350" y="361" font-family="Arial" font-size="16" text-anchor="middle">☸️</text>
   <text x="350" y="376" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#326ce5" text-anchor="middle">Kubernetes</text>
-  <text x="350" y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#1a3880" text-anchor="middle">container orch</text>
+  <text x="350" y="389" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#4a6ec0" text-anchor="middle">container orch</text>
 
   <!-- Learning note -->
-  <text x="460" y="362" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#777">Expanding into low-level systems,</text>
-  <text x="460" y="380" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#777">high-performance backends and container orchestration.</text>
-  <text x="460" y="398" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#555">— building beyond the comfort zone</text>
+  <text x="460" y="358" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#6a5a8a">Expanding into low-level systems,</text>
+  <text x="460" y="374" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#6a5a8a">high-performance backends and</text>
+  <text x="460" y="390" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#6a5a8a">container orchestration at scale.</text>
+  <text x="460" y="406" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#4a3a6a" font-style="italic">— building beyond the comfort zone</text>
 </svg>
