@@ -61,11 +61,11 @@
   <text x="22" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#8a7aaa" text-anchor="middle" transform="rotate(-90,22,95)">commits/wk</text>
 
   <!-- X axis month labels -->
-  <text x="95"  y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Jan</text>
-  <text x="225" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Feb</text>
-  <text x="355" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Mar</text>
-  <text x="485" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Apr</text>
-  <text x="615" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">May</text>
+  <text class="aline" x="95"  y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-2.5s">Jan</text>
+  <text class="aline" x="225" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-2s">Feb</text>
+  <text class="aline" x="355" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-1.5s">Mar</text>
+  <text class="aline" x="485" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-1s">Apr</text>
+  <text class="aline" x="615" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-0.5s">May</text>
   <text class="aspike" x="745" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700" text-anchor="middle">Jun ★</text>
 
   <!-- Area fill under line (violet) -->
