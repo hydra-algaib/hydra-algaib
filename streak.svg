@@ -53,7 +53,7 @@
   <g class="si">
     <text x="148" y="50" font-family="Arial" font-size="22" text-anchor="middle">📦</text>
   </g>
-  <text x="148" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5">TOTAL CONTRIBUTIONS</text>
+  <text class="sn" x="148" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5" style="animation-delay:-2.3s">TOTAL CONTRIBUTIONS</text>
 
   <text class="sn" x="148" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
         fill="#fbbf24" text-anchor="middle" filter="url(#sg)">25+</text>
@@ -73,7 +73,7 @@
   <g class="si">
     <text x="450" y="50" font-family="Arial" font-size="22" text-anchor="middle">🔥</text>
   </g>
-  <text x="450" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5">CURRENT STREAK</text>
+  <text class="sn" x="450" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5" style="animation-delay:-1.2s">CURRENT STREAK</text>
 
   <text class="sn" x="450" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
         fill="#fbbf24" text-anchor="middle" filter="url(#sg)">7d</text>
@@ -92,7 +92,7 @@
   <g class="si">
     <text x="752" y="50" font-family="Arial" font-size="22" text-anchor="middle">⚡</text>
   </g>
-  <text x="752" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5">LONGEST STREAK</text>
+  <text class="sn" x="752" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#8a7aaa" text-anchor="middle" letter-spacing="1.5" style="animation-delay:-0.1s">LONGEST STREAK</text>
 
   <text class="sn" x="752" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="42" font-weight="800"
         fill="#fbbf24" text-anchor="middle" filter="url(#sg)">7d</text>
