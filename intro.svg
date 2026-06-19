@@ -66,9 +66,9 @@
   <text class="it" x="450" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="600"
         fill="#ffffff" text-anchor="middle" filter="url(#ig)">I build complete web applications — from idea to production.</text>
 
-  <text x="450" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="13"
-        fill="#c084fc" text-anchor="middle">Focus: <tspan fill="#fbbf24">AI chatbots</tspan> · <tspan fill="#fbbf24">SaaS platforms</tspan> · <tspan fill="#fbbf24">admin dashboards</tspan> · <tspan fill="#fbbf24">automation systems</tspan></text>
+  <text class="it" x="450" y="62" font-family="'Segoe UI',Arial,sans-serif" font-size="13"
+        fill="#c084fc" text-anchor="middle" style="animation-delay:-2s">Focus: <tspan fill="#fbbf24">AI chatbots</tspan> · <tspan fill="#fbbf24">SaaS platforms</tspan> · <tspan fill="#fbbf24">admin dashboards</tspan> · <tspan fill="#fbbf24">automation systems</tspan></text>
 
-  <text x="450" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="12"
-        fill="#7a6a9a" text-anchor="middle">Currently building my freelance brand · taking on independent projects from Spain 🇪🇸</text>
+  <text class="it" x="450" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="12"
+        fill="#7a6a9a" text-anchor="middle" style="animation-delay:-1s">Currently building my freelance brand · taking on independent projects from Spain 🇪🇸</text>
 </svg>
