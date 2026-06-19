@@ -112,11 +112,11 @@
   <text class="stl" x="876" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="end" style="animation-delay:-0.3s">Jan → Jun</text>
 
   <!-- Month labels -->
-  <text x="480" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Jan</text>
-  <text x="526" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Feb</text>
-  <text x="572" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Mar</text>
-  <text x="618" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Apr</text>
-  <text x="664" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">May</text>
+  <text class="stl" x="480" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" style="animation-delay:-2.5s">Jan</text>
+  <text class="stl" x="526" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" style="animation-delay:-2s">Feb</text>
+  <text class="stl" x="572" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" style="animation-delay:-1.5s">Mar</text>
+  <text class="stl" x="618" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" style="animation-delay:-1s">Apr</text>
+  <text class="stl" x="664" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" style="animation-delay:-0.5s">May</text>
   <text x="710" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700">Jun</text>
 
   <!-- Heatmap cells — Jan -->
