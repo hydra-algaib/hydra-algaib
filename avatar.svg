@@ -29,12 +29,12 @@
       @keyframes aorb{0%{transform:rotate(0deg) translateX(105px) rotate(0deg)}100%{transform:rotate(360deg) translateX(105px) rotate(-360deg)}}
       @keyframes aorb2{0%{transform:rotate(120deg) translateX(105px) rotate(-120deg)}100%{transform:rotate(480deg) translateX(105px) rotate(-480deg)}}
       @keyframes aorb3{0%{transform:rotate(240deg) translateX(105px) rotate(-240deg)}100%{transform:rotate(600deg) translateX(105px) rotate(-600deg)}}
-      /* Varied head amplitudes: 6px, 12px, 8px, 14px, 10px */
-      @keyframes ahead1{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-6px) scale(1.08)}}
-      @keyframes ahead2{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-12px) scale(1.12)}}
-      @keyframes ahead3{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-8px) scale(1.1)}}
-      @keyframes ahead4{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-14px) scale(1.13)}}
-      @keyframes ahead5{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-10px) scale(1.09)}}
+      /* Subtle head amplitudes: 2px, 4px, 3px, 4px, 3px */
+      @keyframes ahead1{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-2px) scale(1.02)}}
+      @keyframes ahead2{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.03)}}
+      @keyframes ahead3{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.02)}}
+      @keyframes ahead4{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.03)}}
+      @keyframes ahead5{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.02)}}
       @keyframes aglow{0%,100%{opacity:0.06}50%{opacity:0.18}}
       @keyframes aorbs{0%,100%{r:5;opacity:0.9}50%{r:6.5;opacity:1}}
       @keyframes aorbs2{0%,100%{r:3;opacity:0.8}50%{r:4;opacity:1}}
