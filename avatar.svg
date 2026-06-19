@@ -42,8 +42,8 @@
       .ar1{animation:arot1 20s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .ar2{animation:arot2 15s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .ar3{animation:arot1 30s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
-      .apulse{animation:apulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:200px 200px}
-      .aeye{animation:aeye 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:200px 200px}
+      .apulse{animation:apulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .aeye{animation:aeye 2.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
       .aorb1{animation:aorb  8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .aorb2{animation:aorb2 8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
       .aorb3{animation:aorb3 8s linear infinite;transform-box:fill-box;transform-origin:200px 200px}
