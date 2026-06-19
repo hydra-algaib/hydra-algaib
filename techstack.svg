@@ -72,7 +72,7 @@
 
   <rect class="tsh" x="506" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#686868" stroke-width="1"/>
   <text x="550" y="63" font-family="Arial" font-size="18" text-anchor="middle">🚂</text>
-  <text x="550" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Express</text>
+  <text x="550" y="84" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#9a8aaa" text-anchor="middle">Express</text>
 
   <rect class="tsh" x="602" y="44" width="88" height="48" rx="6" fill="#1a0040" stroke="#e34f26" stroke-width="1"/>
   <text x="646" y="63" font-family="Arial" font-size="18" text-anchor="middle">🌐</text>
