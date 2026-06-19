@@ -73,7 +73,7 @@
   <text x="400" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end">hydra-algaib</text>
 
   <!-- Row 1: Total Commits -->
-  <text x="30" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa">Total Commits (2026)</text>
+  <text class="stl" x="30" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa" style="animation-delay:-2s">Total Commits (2026)</text>
   <!-- Bar glow layer -->
   <rect class="bar1" x="220" y="58" height="18" rx="3" fill="#fbbf24" opacity="0.25" filter="url(#stbar)"/>
   <!-- Bar -->
@@ -81,19 +81,19 @@
   <text class="stl" x="408" y="72" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#fbbf24" text-anchor="end" font-weight="700" style="animation-delay:-0.4s">25+</text>
 
   <!-- Row 2: Private Repos -->
-  <text x="30" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa">Private Repos</text>
+  <text class="stl" x="30" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa" style="animation-delay:-1.4s">Private Repos</text>
   <rect class="bar2" x="220" y="88" height="18" rx="3" fill="#c084fc" opacity="0.2" filter="url(#stbar)"/>
   <rect class="bar2" x="220" y="90" height="14" rx="3" fill="url(#bar2)"/>
   <text class="stl" x="408" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc" text-anchor="end" font-weight="700" style="animation-delay:-1s">3+</text>
 
   <!-- Row 3: Lines of Code -->
-  <text x="30" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa">Lines of Code</text>
+  <text class="stl" x="30" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa" style="animation-delay:-0.8s">Lines of Code</text>
   <rect class="bar3" x="220" y="118" height="18" rx="3" fill="#fbbf24" opacity="0.25" filter="url(#stbar)"/>
   <rect class="bar3" x="220" y="120" height="14" rx="3" fill="url(#bar3)"/>
   <text class="stl" x="408" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#fbbf24" text-anchor="end" font-weight="700" style="animation-delay:-1.6s">10k+</text>
 
   <!-- Row 4: Languages -->
-  <text x="30" y="162" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa">Languages</text>
+  <text class="stl" x="30" y="162" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8a7aaa" style="animation-delay:-0.2s">Languages</text>
   <rect class="bar4" x="220" y="148" height="18" rx="3" fill="#c084fc" opacity="0.2" filter="url(#stbar)"/>
   <rect class="bar4" x="220" y="150" height="14" rx="3" fill="url(#bar4)"/>
   <text class="stl" x="408" y="162" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#c084fc" text-anchor="end" font-weight="700" style="animation-delay:-2.2s">JS · TS · Py</text>
