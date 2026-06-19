@@ -66,7 +66,7 @@
   <text x="355" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Mar</text>
   <text x="485" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">Apr</text>
   <text x="615" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle">May</text>
-  <text x="745" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700" text-anchor="middle">Jun ★</text>
+  <text class="aspike" x="745" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700" text-anchor="middle">Jun ★</text>
 
   <!-- Area fill under line (violet) -->
   <polygon class="aarea" fill="url(#aarea)"
