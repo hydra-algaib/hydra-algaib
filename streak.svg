@@ -61,7 +61,7 @@
   <rect x="44" y="118" width="0" height="4" rx="2" fill="url(#sbar1)"/>
   <rect class="sbar1" x="44" y="118" width="200" height="4" rx="2" fill="url(#sbar1)"/>
 
-  <text x="44"  y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">2026 · all commits</text>
+  <text class="sn" x="44"  y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-0.8s">2026 · all commits</text>
   <text x="240" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end">private repos</text>
   <text x="148" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle">Jan — Jun 2026</text>
 
@@ -80,7 +80,7 @@
 
   <rect class="sbar2" x="346" y="118" width="200" height="4" rx="2" fill="url(#sbar2)"/>
 
-  <text x="346" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24">Jun 12 → Jun 18</text>
+  <text class="sn" x="346" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#fbbf24" style="animation-delay:-1.5s">Jun 12 → Jun 18</text>
   <text x="542" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end">launch sprint</text>
   <text x="450" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle">Profile build week 🚀</text>
 
@@ -99,7 +99,7 @@
 
   <rect class="sbar3" x="648" y="118" width="200" height="4" rx="2" fill="url(#sbar1)"/>
 
-  <text x="648" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc">Jun 2026</text>
+  <text class="sn" x="648" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-2.2s">Jun 2026</text>
   <text x="844" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#6a5a8a" text-anchor="end">personal best</text>
   <text x="752" y="158" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="middle">Profile launch week</text>
 </svg>
