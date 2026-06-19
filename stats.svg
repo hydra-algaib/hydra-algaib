@@ -58,6 +58,8 @@
       @keyframes stactive{0%,100%{r:4;opacity:0.8}50%{r:5.5;opacity:1}}
       .ststreak{animation:ststreak 2.5s ease-in-out infinite}
       .stactive{animation:stactive 2.5s ease-in-out infinite}
+      @keyframes stgold{0%,100%{opacity:0.85}50%{opacity:1}}
+      .stgold{animation:stgold 2.5s ease-in-out infinite}
     </style>
   </defs>
 
@@ -196,15 +198,15 @@
   <rect x="720" y="116" width="10" height="10" rx="2" fill="#2d0070" opacity="0.5"/>
   <!-- Jun 18 SPIKE — gold with glow -->
   <rect x="734" y="70" width="10" height="60" rx="2" fill="#fbbf24" opacity="0.12" filter="url(#sthm)"/>
-  <rect x="734" y="74" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.95"/>
-  <rect x="734" y="88" width="10" height="10" rx="2" fill="#fbbf24"/>
-  <rect x="734" y="102" width="10" height="10" rx="2" fill="#fbbf24"/>
-  <rect x="734" y="116" width="10" height="10" rx="2" fill="#f59e0b" opacity="0.9"/>
+  <rect class="stgold" x="734" y="74" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.95"/>
+  <rect class="stgold" x="734" y="88" width="10" height="10" rx="2" fill="#fbbf24" style="animation-delay:-0.6s"/>
+  <rect class="stgold" x="734" y="102" width="10" height="10" rx="2" fill="#fbbf24" style="animation-delay:-1.2s"/>
+  <rect class="stgold" x="734" y="116" width="10" height="10" rx="2" fill="#f59e0b" opacity="0.9" style="animation-delay:-1.8s"/>
   <!-- Jun post-spike -->
-  <rect x="748" y="74" width="10" height="10" rx="2" fill="#c084fc" opacity="0.8"/>
-  <rect x="748" y="88" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.9"/>
-  <rect x="748" y="102" width="10" height="10" rx="2" fill="#c084fc" opacity="0.7"/>
-  <rect x="748" y="116" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.8"/>
+  <rect class="stgold" x="748" y="74" width="10" height="10" rx="2" fill="#c084fc" opacity="0.8" style="animation-delay:-0.3s"/>
+  <rect class="stgold" x="748" y="88" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.9" style="animation-delay:-0.9s"/>
+  <rect class="stgold" x="748" y="102" width="10" height="10" rx="2" fill="#c084fc" opacity="0.7" style="animation-delay:-1.5s"/>
+  <rect class="stgold" x="748" y="116" width="10" height="10" rx="2" fill="#fbbf24" opacity="0.8" style="animation-delay:-2.1s"/>
 
   <!-- Spike ping rings on heatmap -->
   <circle class="stping" cx="739" cy="93" r="5" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
@@ -216,7 +218,7 @@
 
   <!-- Legend — more visible -->
   <text x="480" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Less</text>
-  <rect x="508" y="183" width="9" height="9" rx="1.5" fill="#1a0040" stroke="#333" stroke-width="0.5"/>
+  <rect x="508" y="183" width="9" height="9" rx="1.5" fill="#1a0040" stroke="#2d0070" stroke-width="0.5"/>
   <rect x="520" y="183" width="9" height="9" rx="1.5" fill="#2d0070"/>
   <rect x="532" y="183" width="9" height="9" rx="1.5" fill="#4a0090"/>
   <rect x="544" y="183" width="9" height="9" rx="1.5" fill="#c084fc"/>
