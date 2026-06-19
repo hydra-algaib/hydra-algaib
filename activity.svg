@@ -54,11 +54,11 @@
   <line x1="60" y1="150" x2="880" y2="150" stroke="#1e0050" stroke-width="1"/>
 
   <!-- Y axis labels -->
-  <text x="50" y="34"  font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end">20</text>
-  <text x="50" y="74"  font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end">15</text>
-  <text x="50" y="114" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end">10</text>
-  <text x="50" y="154" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end">5</text>
-  <text x="22" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#8a7aaa" text-anchor="middle" transform="rotate(-90,22,95)">commits/wk</text>
+  <text class="aline" x="50" y="34"  font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end" style="animation-delay:-0s">20</text>
+  <text class="aline" x="50" y="74"  font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end" style="animation-delay:-0.75s">15</text>
+  <text class="aline" x="50" y="114" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end" style="animation-delay:-1.5s">10</text>
+  <text class="aline" x="50" y="154" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end" style="animation-delay:-2.25s">5</text>
+  <text class="aline" x="22" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#8a7aaa" text-anchor="middle" transform="rotate(-90,22,95)" style="animation-delay:-1s">commits/wk</text>
 
   <!-- X axis month labels -->
   <text class="aline" x="95"  y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="middle" style="animation-delay:-2.5s">Jan</text>
