@@ -30,7 +30,8 @@
     <style>
       @keyframes cpulse{0%,100%{opacity:0.5;stroke:#c084fc}50%{opacity:1;stroke:#fbbf24}}
       @keyframes ctitle{0%,100%{opacity:0.85}50%{opacity:1}}
-      @keyframes cdot{0%,100%{r:5;opacity:0.8}50%{r:7;opacity:1}}
+      @keyframes cdot{0%,100%{r:5;opacity:0.8}50%{r:5.5;opacity:1}}
+      @keyframes cbadge{0%,100%{opacity:0.6;stroke:#c084fc}50%{opacity:1;stroke:#fbbf24}}
       @keyframes cring1{0%,100%{r:24;opacity:0.5;stroke:#22c55e}50%{r:28;opacity:0.9;stroke:#22c55e}}
       @keyframes cring2{0%,100%{r:36;opacity:0.15}50%{r:42;opacity:0.35}}
       @keyframes cring3{0%{r:10;opacity:0.6}100%{r:52;opacity:0}}
@@ -41,7 +42,8 @@
       @keyframes cgl{0%,100%{opacity:0.07}50%{opacity:0.16}}
       .cborder{animation:cpulse 3s ease-in-out infinite}
       .ctitle{animation:ctitle 3s ease-in-out infinite}
-      .cdot{animation:cdot 2s ease-in-out infinite}
+      .cdot{animation:cdot 3s ease-in-out infinite}
+      .cbadge{animation:cbadge 4s ease-in-out infinite}
       .cring1{animation:cring1 2.5s ease-in-out infinite}
       .cring2{animation:cring2 3s ease-in-out infinite;animation-delay:-1s}
       .cring3{animation:cring3 3s ease-out infinite;animation-delay:-1.5s}
@@ -105,7 +107,7 @@
         fill="#fbbf24" text-anchor="middle">🐙  github.com/hydra-algaib</text>
 
   <!-- Right: freelance badge -->
-  <rect x="718" y="58" width="148" height="64" rx="10" fill="#0d0025" stroke="#c084fc" stroke-width="1"/>
+  <rect class="cbadge" x="718" y="58" width="148" height="64" rx="10" fill="#0d0025" stroke="#c084fc" stroke-width="1"/>
   <text x="792" y="82"  font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#c084fc" text-anchor="middle" font-weight="600">💼 Freelance</text>
   <line x1="730" y1="90" x2="854" y2="90" stroke="#2d0070" stroke-width="0.8"/>
   <text x="792" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#8a7aaa" text-anchor="middle">Remote · Full Stack</text>
