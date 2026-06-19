@@ -110,11 +110,11 @@
   <text x="876" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" text-anchor="end">Jan → Jun</text>
 
   <!-- Month labels -->
-  <text x="480" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">Jan</text>
-  <text x="526" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">Feb</text>
-  <text x="572" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">Mar</text>
-  <text x="618" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">Apr</text>
-  <text x="664" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">May</text>
+  <text x="480" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Jan</text>
+  <text x="526" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Feb</text>
+  <text x="572" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Mar</text>
+  <text x="618" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Apr</text>
+  <text x="664" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">May</text>
   <text x="710" y="68" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700">Jun</text>
 
   <!-- Heatmap cells — Jan -->
@@ -215,13 +215,13 @@
   <text x="739" y="159" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#fbbf24" text-anchor="middle" font-weight="700">Jun 18 🚀</text>
 
   <!-- Legend — more visible -->
-  <text x="480" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">Less</text>
+  <text x="480" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">Less</text>
   <rect x="508" y="183" width="9" height="9" rx="1.5" fill="#1a0040" stroke="#333" stroke-width="0.5"/>
   <rect x="520" y="183" width="9" height="9" rx="1.5" fill="#2d0070"/>
   <rect x="532" y="183" width="9" height="9" rx="1.5" fill="#4a0090"/>
   <rect x="544" y="183" width="9" height="9" rx="1.5" fill="#c084fc"/>
   <rect x="556" y="183" width="9" height="9" rx="1.5" fill="#fbbf24"/>
-  <text x="568" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#5a4a7a">More</text>
+  <text x="568" y="192" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a">More</text>
   <!-- Streak badge -->
   <rect class="ststreak" x="756" y="180" width="112" height="16" rx="4" fill="#1a0040" stroke="#fbbf24" stroke-width="0.8"/>
   <text class="ststreak" x="812" y="191" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="700">🔥 7-day streak</text>
