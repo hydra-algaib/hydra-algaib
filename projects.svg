@@ -84,7 +84,7 @@
   <text x="185" y="171" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">WhatsApp</text>
 
   <circle cx="26" cy="196" r="4" fill="#22c55e" opacity="0.85"/>
-  <text x="35" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a">last push Jun 18 2026</text>
+  <text x="35" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a">last push Jun 19 2026</text>
   <text x="248" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="end" font-weight="600">★ Featured</text>
 
   <!-- Card 2: GymLog -->
@@ -117,7 +117,7 @@
   <text x="464" y="171" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">i18n</text>
 
   <circle cx="328" cy="196" r="4" fill="#22c55e" opacity="0.85"/>
-  <text x="337" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a">last push Jun 18 2026</text>
+  <text x="337" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a">last push Jun 19 2026</text>
   <text x="550" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="end" font-weight="600">📱 Mobile-first</text>
 
   <!-- Card 3: Coming Soon — more animated detail -->
