@@ -84,6 +84,6 @@
   <rect x="526" y="42" width="25" height="2" rx="1" fill="#c084fc" opacity="0.4"/>
 
   <!-- Right: timestamp -->
-  <text x="888" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end">hydra-algaib</text>
-  <text x="888" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#7a6a9a" text-anchor="end" font-style="italic">Jun 2026</text>
+  <text class="snl" x="888" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a6a9a" text-anchor="end" style="animation-delay:-1.4s">hydra-algaib</text>
+  <text class="snl" x="888" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#7a6a9a" text-anchor="end" font-style="italic" style="animation-delay:-2.2s">Jun 2026</text>
 </svg>
