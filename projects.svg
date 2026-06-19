@@ -143,6 +143,6 @@
   <!-- Tech hints -->
   <text x="752" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#7a5aaa" text-anchor="middle">AI  ·  real-time  ·  SaaS</text>
 
-  <text x="752" y="188" font-family="'Courier New',Courier,monospace" font-size="10"
-        fill="#8a6ac0" text-anchor="middle">// follow for updates</text>
+  <text class="pqs" x="752" y="188" font-family="'Courier New',Courier,monospace" font-size="10"
+        fill="#8a6ac0" text-anchor="middle" style="animation-delay:-1.2s">// follow for updates</text>
 </svg>
