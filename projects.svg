@@ -65,7 +65,7 @@
   <rect x="24" y="28" width="36" height="36" rx="8" fill="#2d0070" opacity="0.8"/>
   <text x="42" y="52" font-family="Arial" font-size="18" text-anchor="middle">🤖</text>
 
-  <text x="70" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
+  <text class="pb1" x="70" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
         fill="#fbbf24" filter="url(#pg)">sofia-chatbot</text>
   <text class="ptag" x="70" y="58" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-1.2s">Private · AI Secretary</text>
 
@@ -84,7 +84,7 @@
   <text x="185" y="171" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle">WhatsApp</text>
 
   <circle cx="26" cy="196" r="4" fill="#22c55e" opacity="0.85"/>
-  <text x="35" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a">last push Jun 19 2026</text>
+  <text class="ptag" x="35" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#6a5a8a" style="animation-delay:-0.7s">last push Jun 19 2026</text>
   <text class="ptag" x="248" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="end" font-weight="600" style="animation-delay:-2.2s">★ Featured</text>
 
   <!-- Card 2: GymLog -->
@@ -98,7 +98,7 @@
   <rect x="326" y="28" width="36" height="36" rx="8" fill="#2d0070" opacity="0.8"/>
   <text x="344" y="52" font-family="Arial" font-size="18" text-anchor="middle">💪</text>
 
-  <text x="372" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
+  <text class="pb2" x="372" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
         fill="#fbbf24" filter="url(#pg)">gymlog-pwa</text>
   <text class="ptag" x="372" y="58" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#c084fc" style="animation-delay:-0.6s">Private · Fitness PWA</text>
 
