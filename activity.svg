@@ -104,7 +104,7 @@
   <!-- Spike label -->
   <line x1="752" y1="44" x2="752" y2="150" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3 3" opacity="0.4"/>
   <rect x="706" y="10" width="92" height="20" rx="5" fill="#1a0040" stroke="#fbbf24" stroke-width="1"/>
-  <text x="752" y="24" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="700">🚀 Jun 18 · +25 commits</text>
+  <text class="aspike" x="752" y="24" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" text-anchor="middle" font-weight="700" style="animation-delay:-0.5s">🚀 Jun 18 · +25 commits</text>
 
   <!-- Scan line animation -->
   <rect class="ascan" x="60" y="20" width="3" height="140" fill="#c084fc"/>

@@ -51,7 +51,7 @@
   <!-- Mini bar -->
   <rect x="90" y="34" width="90" height="5" rx="2" fill="#1a0040"/>
   <rect class="snw1" x="90" y="34" height="5" rx="2" fill="url(#snbar1)"/>
-  <text x="182" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#fbbf24" text-anchor="end">▲ active</text>
+  <text class="snl" x="182" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#fbbf24" text-anchor="end" style="animation-delay:-0.5s">▲ active</text>
 
   <!-- Divider dot -->
   <circle class="sndot" cx="210" cy="30" r="2" fill="#2d0070"/>
@@ -63,7 +63,7 @@
   <text class="snl" x="238" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#c084fc" filter="url(#sng)">3+</text>
   <rect x="278" y="34" width="90" height="5" rx="2" fill="#1a0040"/>
   <rect class="snw2" x="278" y="34" height="5" rx="2" fill="url(#snbar2)"/>
-  <text x="372" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="end">🔒 private</text>
+  <text class="snl" x="372" y="42" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#c084fc" text-anchor="end" style="animation-delay:-1.5s">🔒 private</text>
 
   <!-- Divider dot -->
   <circle class="sndot" cx="400" cy="30" r="2" fill="#2d0070" style="animation-delay:-1s"/>
