@@ -61,7 +61,7 @@
       .fscan{animation:fscan 7s linear infinite;opacity:0.04}
       .fshimmer{animation:fshimmer 2.8s linear infinite}
       .fdate{animation:fdate 4s ease-in-out infinite}
-      @keyframes fspark{0%,100%{opacity:0.4;transform:scale(1) rotate(0deg)}50%{opacity:1;transform:scale(1.4) rotate(15deg)}}
+      @keyframes fspark{0%,100%{opacity:0.4;transform:scale(1) rotate(0deg)}50%{opacity:1;transform:scale(1.15) rotate(8deg)}}
       .fspark{animation:fspark 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     </style>
   </defs>
