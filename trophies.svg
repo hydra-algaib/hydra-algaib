@@ -78,6 +78,8 @@
       .tp4{animation:tprogw4 1.6s ease-out 0.45s forwards;width:0}
       .tp5{animation:tprogw5 1.6s ease-out 0.6s forwards;width:0}
       .tp6{animation:tprogw6 1.6s ease-out 0.75s forwards;width:0}
+      @keyframes tbadge{0%,100%{opacity:0.8;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+      .tbadge{animation:tbadge 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     </style>
   </defs>
 
@@ -103,6 +105,8 @@
   <rect x="22" y="155" width="116" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp1" x="22" y="155" height="4" rx="2" fill="url(#tpbar)"/>
   <text x="75" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Jun 2026</text>
+  <circle class="tbadge" cx="128" cy="22" r="9" fill="#fbbf24" opacity="0.95"/>
+  <text x="128" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">S</text>
 
   <!-- ── TROPHY 2: Full Stack ⚡ ── cx=225 -->
   <rect x="160" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
@@ -123,6 +127,8 @@
   <rect x="172" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp2" x="172" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="225" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">JS · TS · Node · React</text>
+  <circle class="tbadge" cx="278" cy="22" r="9" fill="#c084fc" opacity="0.95" style="animation-delay:-0.5s"/>
+  <text x="278" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">A</text>
 
   <!-- ── TROPHY 3: AI Builder 🤖 ── cx=375 -->
   <rect x="310" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
@@ -143,6 +149,8 @@
   <rect x="322" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp3" x="322" y="155" height="4" rx="2" fill="url(#tpbar)"/>
   <text x="375" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Claude API · Tool use</text>
+  <circle class="tbadge" cx="428" cy="22" r="9" fill="#fbbf24" opacity="0.95" style="animation-delay:-1s"/>
+  <text x="428" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">S</text>
 
   <!-- ── TROPHY 4: SaaS Maker 🏢 ── cx=525 -->
   <rect x="460" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
@@ -163,6 +171,8 @@
   <rect x="472" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp4" x="472" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="525" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Admin · Auth · Multi-tenant</text>
+  <circle class="tbadge" cx="578" cy="22" r="9" fill="#c084fc" opacity="0.95" style="animation-delay:-1.5s"/>
+  <text x="578" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">A</text>
 
   <!-- ── TROPHY 5: Automation Pro ⚙️ ── cx=675 -->
   <rect x="610" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
@@ -183,6 +193,8 @@
   <rect x="622" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp5" x="622" y="155" height="4" rx="2" fill="url(#tpbar)"/>
   <text x="675" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">Cron · Webhooks · Events</text>
+  <circle class="tbadge" cx="728" cy="22" r="9" fill="#fbbf24" opacity="0.95" style="animation-delay:-2s"/>
+  <text x="728" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">S</text>
 
   <!-- ── TROPHY 6: Open Source 🌐 ── cx=825 -->
   <rect x="760" y="10" width="130" height="180" rx="10" fill="url(#tcard)"/>
@@ -203,4 +215,6 @@
   <rect x="772" y="155" width="106" height="4" rx="2" fill="#1a0040"/>
   <rect class="tp6" x="772" y="155" height="4" rx="2" fill="url(#tpbar2)"/>
   <text x="825" y="170" font-family="'Segoe UI',Arial,sans-serif" font-size="8" fill="#555" text-anchor="middle">GitHub · hydra-algaib</text>
+  <circle class="tbadge" cx="878" cy="22" r="9" fill="#c084fc" opacity="0.95" style="animation-delay:-2.5s"/>
+  <text x="878" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="9" font-weight="800" fill="#0a0010" text-anchor="middle">A</text>
 </svg>
