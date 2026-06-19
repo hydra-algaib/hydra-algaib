@@ -103,9 +103,9 @@
   <!-- Shimmer overlay on signature -->
   <rect class="fshimmer" x="310" y="68" width="60" height="32" fill="url(#fsig)" clip-path="url(#fsigclip)"/>
 
-  <text x="450" y="106"
+  <text class="ftxt" x="450" y="106"
         font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#c084fc" text-anchor="middle" letter-spacing="1.5" opacity="0.75">Full Stack · AI · Freelance · Spain 🇪🇸</text>
+        fill="#c084fc" text-anchor="middle" letter-spacing="1.5" style="animation-delay:-1.5s">Full Stack · AI · Freelance · Spain 🇪🇸</text>
 
   <text class="fdate" x="450" y="120"
         font-family="'Segoe UI',Arial,sans-serif" font-size="9"
