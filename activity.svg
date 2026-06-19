@@ -30,8 +30,10 @@
       @keyframes ascan{0%{transform:translateX(0)}100%{transform:translateX(820px)}}
       @keyframes agl{0%,100%{opacity:0.06}50%{opacity:0.18}}
       @keyframes aping{0%{r:6;opacity:0.7}100%{r:22;opacity:0}}
+      @keyframes aarea{0%,100%{opacity:0.85}50%{opacity:1}}
       .aline{animation:aline 3s ease-in-out infinite}
       .adot{animation:adot 2s ease-in-out infinite}
+      .aarea{animation:aarea 5s ease-in-out infinite}
       .aspike{animation:aspike 2.5s ease-in-out infinite}
       .ascan{animation:ascan 8s linear infinite;opacity:0.06}
       .agl{animation:agl 4s ease-in-out infinite}
@@ -67,7 +69,7 @@
   <text x="745" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#fbbf24" font-weight="700" text-anchor="middle">Jun ★</text>
 
   <!-- Area fill under line (violet) -->
-  <polygon fill="url(#aarea)"
+  <polygon class="aarea" fill="url(#aarea)"
     points="60,150 95,145 130,148 160,143 190,147 225,140 260,144 290,141 320,146 355,139 390,143 420,137 450,141 485,135 520,138 550,133 580,136 615,130 650,127 680,122 710,118 740,115 752,32 760,115 780,118 820,120 860,117 880,115 880,155 60,155"/>
 
   <!-- Spike area fill (gold) -->
